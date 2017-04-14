@@ -1,0 +1,246 @@
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.csprojResolveAssemblyReference.cache
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.apk
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android-Signed.apk
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\bin\LanguageKing.Android.apk
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable\icon.png
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-hdpi\icon.png
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xhdpi\icon.png
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\tabbar.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\toolbar.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\values\styles.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\R.cs.flag
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\uploadflags.txt
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll.mdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.Android.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.apk
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android-Signed.apk
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.csprojResolveAssemblyReference.cache
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\bin\LanguageKing.Android.apk
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable\icon.png
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-hdpi\icon.png
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xhdpi\icon.png
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\tabbar.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\toolbar.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\res\values\styles.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\R.cs.flag
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\uploadflags.txt
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Java.Interop.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Mono.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\mscorlib.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.Core.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.Net.Http.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.Linq.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Core.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.dll
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.pdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.xml
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.dll.mdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.dll.mdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Plugin.TextToSpeech.Abstractions.dll.mdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Plugin.TextToSpeech.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.apk
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android-Signed.apk
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Plugin.TextToSpeech.Abstractions.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.csprojResolveAssemblyReference.cache
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\bin\LanguageKing.Android.apk
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable\icon.png
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\res\values\styles.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\R.cs.flag
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\uploadflags.txt
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Plugin.TextToSpeech.Abstractions.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Plugin.TextToSpeech.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb

@@ -1,0 +1,78 @@
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
+c:\users\cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.MainMenuPage.xaml.g.cs
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.LearnWords.xaml.g.cs
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PracticeWords.xaml.g.cs
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\LanguageKing.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.MainMenuPage.xaml.g.cs
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.LearnWords.xaml.g.cs
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PracticeWords.xaml.g.cs
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.dll
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+E:\Users\Mozsi\Source\Repos\Lang\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.dll
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.pdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.xml
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+C:\Users\Cserje\documents\visual studio 2017\Projects\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.MainMenuPage.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.LearnWords.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PracticeWords.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LanguageKing\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
