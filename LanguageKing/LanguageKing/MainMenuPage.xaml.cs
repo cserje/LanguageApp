@@ -26,12 +26,17 @@ namespace LanguageKing
             await Navigation.PushAsync(new LearnWords());
         }
         
-             private async Task practiceButton_clicked(object sender, EventArgs e)
+             private async Task practiceButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PracticeWords());
         }
 
         private void CloseApplication(object sender, EventArgs e)
+        {
+
+        }
+
+        private void practiceButton_Clicked_1(object sender, EventArgs e)
         {
 
         }

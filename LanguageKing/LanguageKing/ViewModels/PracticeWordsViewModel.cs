@@ -10,11 +10,11 @@ namespace LanguageKing.ViewModels
 {
     class PracticeWordsViewModel : INotifyPropertyChanged
     {
-        private String questionLabelText;
-        private String firstButtonText;
-        private String secondButtonText;
-        private String thirdButtonText;
-        private String fourthButtonText;
+        private string questionLabelText;
+        private string firstButtonText;
+        private string secondButtonText;
+        private string thirdButtonText;
+        private string fourthButtonText;
 
         public string QuestionLabelText
         {

@@ -1,6 +1,5 @@
 ﻿
 using LanguageKing.ViewModels;
-using Plugin.TextToSpeech;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -60,7 +59,7 @@ namespace LanguageKing
         {
             String text = questionLabel.Text;
             DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
-            //CrossTextToSpeech.Current.Speak("Orbán Viktor Magyarország királya");
+           
         }
 
         private void InitWords()

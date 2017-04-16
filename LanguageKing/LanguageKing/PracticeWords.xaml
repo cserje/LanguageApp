@@ -19,11 +19,11 @@
         <Button Text="Fourth answer"></Button>-->
 
     <StackLayout Orientation="Vertical" Spacing="20">
-        <Label x:Name="questionLabel" Text="{Binding questionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
+        <Label x:Name="questionLabel" Text="{Binding QuestionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
 
-        <Button x:Name="button1" Text="{Binding firstButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button2" Text="{Binding secondButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button3" Text="{Binding thirdButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button4" Text="{Binding fourthButtonText}" HorizontalOptions="Fill"/>
+        <Button x:Name="button1" Text="{Binding FirstButtonText}" HorizontalOptions="Fill"/>
+        <Button x:Name="button2" Text="{Binding SecondButtonText}" HorizontalOptions="Fill"/>
+        <Button x:Name="button3" Text="{Binding ThirdButtonText}" HorizontalOptions="Fill"/>
+        <Button x:Name="button4" Text="{Binding FourthButtonText}" HorizontalOptions="Fill"/>
     </StackLayout>
 </ContentPage>

@@ -12,7 +12,7 @@
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Center" Spacing="20">
         <Button x:Name="learnButton" Text="{Binding LearnText}" Clicked="learnButton_Clicked" HorizontalOptions="FillAndExpand">
         </Button>
-        <Button x:Name="practiceButton" Text="{Binding PracticeText}" Clicked="practiceButton_clicked" HorizontalOptions="FillAndExpand">
+        <Button x:Name="practiceButton" Text="{Binding PracticeText}" Clicked="practiceButton_Clicked" HorizontalOptions="FillAndExpand">
         </Button>
 
         <Button x:Name="quitButton" Text="{Binding QuitText}" Clicked="CloseApplication" IsEnabled="False" HorizontalOptions="FillAndExpand">
