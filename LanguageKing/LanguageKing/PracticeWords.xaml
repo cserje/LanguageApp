@@ -21,9 +21,10 @@
     <StackLayout Orientation="Vertical" Spacing="20">
         <Label x:Name="questionLabel" Text="{Binding QuestionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
 
-        <Button x:Name="button1" Text="{Binding FirstButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button2" Text="{Binding SecondButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button3" Text="{Binding ThirdButtonText}" HorizontalOptions="Fill"/>
-        <Button x:Name="button4" Text="{Binding FourthButtonText}" HorizontalOptions="Fill"/>
+        <Button x:Name="button1" Text="{Binding FirstButtonText}" HorizontalOptions="Fill" Clicked="button1_Clicked"/>
+        <Button x:Name="button2" Text="{Binding SecondButtonText}" HorizontalOptions="Fill" Clicked="button2_Clicked"/>
+        <Button x:Name="button3" Text="{Binding ThirdButtonText}" HorizontalOptions="Fill" Clicked="button3_Clicked"/>
+        <Button x:Name="button4" Text="{Binding FourthButtonText}" HorizontalOptions="Fill" Clicked="button4_Clicked"/>
+        <Button x:Name="nextButton" Text="{Binding NextButtonText}" HorizontalOptions="Start" Clicked="nextButton_Clicked"></Button>
     </StackLayout>
 </ContentPage>

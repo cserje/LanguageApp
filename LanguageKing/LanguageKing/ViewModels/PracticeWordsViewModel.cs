@@ -10,6 +10,7 @@ namespace LanguageKing.ViewModels
 {
     class PracticeWordsViewModel : INotifyPropertyChanged
     {
+        private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         private string questionLabelText;
         private string firstButtonText;
         private string secondButtonText;
@@ -79,6 +80,10 @@ namespace LanguageKing.ViewModels
                 fourthButtonText = value;
                 OnPropertyChanged();
             }
+        }
+        public string NextButtonText
+        {
+            get { return nextButtonText[ChooseLanguagePage.FirstLanguage]; }
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

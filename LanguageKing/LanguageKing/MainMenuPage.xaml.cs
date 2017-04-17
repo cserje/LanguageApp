@@ -28,7 +28,7 @@ namespace LanguageKing
 
         private void practiceButton_Clicked(object sender, EventArgs e)
         {
-                        Navigation.PushAsync(new PracticeWords());
+             Navigation.PushAsync(new PracticeWords());
         }
 
         private void CloseApplication(object sender, EventArgs e)
