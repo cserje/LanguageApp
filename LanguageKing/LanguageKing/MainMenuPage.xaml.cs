@@ -25,10 +25,11 @@ namespace LanguageKing
         {
             await Navigation.PushAsync(new LearnWords());
         }
-        
-             private async Task practiceButton_Clicked(object sender, EventArgs e)
+
+        private void practiceButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PracticeWords());
+            DisplayAlert("Esemény", "Gyakorlás gomb megnyomva!", "Bezárás");
+            Navigation.PushAsync(new PracticeWords());
         }
 
         private void CloseApplication(object sender, EventArgs e)
@@ -36,9 +37,5 @@ namespace LanguageKing
 
         }
 
-        private void practiceButton_Clicked_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

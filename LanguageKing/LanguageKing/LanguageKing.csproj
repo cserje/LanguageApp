@@ -52,6 +52,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ITextToSpeech.cs" />
+    <Compile Include="TempPage.xaml.cs">
+      <DependentUpon>TempPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\ChooseLanguagePageViewModel.cs" />
     <Compile Include="ViewModels\LearnWordsViewModel.cs" />
     <Compile Include="ViewModels\MainMenuPageViewModel.cs" />
@@ -104,6 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PracticeWords.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TempPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
