@@ -17,13 +17,15 @@ namespace LanguageKing
         private Random rnd = new Random();
         private List<int> randoms = new List<int>();
         private int correctAnswer = -1;
-        private Color grayColor = new Color(214, 214, 215);
+        private int incrementPointsValue = 10;
+        private int points = 0;
 
         public PracticeWords()
         {
             InitWords();
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
+            pointLabel.SetBinding(Label.TextProperty, "PointLabelText");
             questionLabel.SetBinding(Label.TextProperty, "QuestionLabelText");
             button1.SetBinding(Button.TextProperty, "FirstButtonText");
             button2.SetBinding(Button.TextProperty, "SecondButtonText");
@@ -104,13 +106,14 @@ namespace LanguageKing
             if (correctAnswer == 0)
             {
                
-                button1.BackgroundColor = new Color(0, 255, 0);
-               
+                button1.BackgroundColor = Color.LightGreen;
+                points += incrementPointsValue;
+                pointLabel.BindingContext = new { PointLabelText = points};
             }
             else
             {
                 
-                button1.BackgroundColor = new Color(255, 0, 0);
+                button1.BackgroundColor = Color.Red;
             }
             disableButtons();
         }
@@ -119,13 +122,15 @@ namespace LanguageKing
             if (correctAnswer == 1)
             {
                 
-                button2.BackgroundColor = new Color(0, 255, 0);
-                
+                button2.BackgroundColor = Color.LightGreen;
+                points += incrementPointsValue;
+                pointLabel.BindingContext = new { PointLabelText = points };
+
             }
             else
             {
                
-                button2.BackgroundColor = new Color(255, 0, 0);
+                button2.BackgroundColor = Color.Red;
 
             }
             disableButtons();
@@ -135,12 +140,14 @@ namespace LanguageKing
             if (correctAnswer == 2)
             {
                 
-                button3.BackgroundColor = new Color(0, 255, 0);
+                button3.BackgroundColor = Color.LightGreen;
+                points += incrementPointsValue;
+                pointLabel.BindingContext = new { PointLabelText = points };
             }
             else
             {
               
-                button3.BackgroundColor = new Color(255, 0, 0);
+                button3.BackgroundColor = Color.Red;
             }
             disableButtons();
         }
@@ -149,12 +156,14 @@ namespace LanguageKing
             if (correctAnswer == 3)
             {
                 
-                button4.BackgroundColor = new Color(0, 255, 0);
+                button4.BackgroundColor = Color.LightGreen;
+                points += incrementPointsValue;
+                pointLabel.BindingContext = new { PointLabelText = points };
             }
             else
             {
                 
-                button4.BackgroundColor = new Color(255, 0, 0);
+                button4.BackgroundColor = Color.Red;
             }
             disableButtons();
         }

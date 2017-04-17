@@ -43,7 +43,8 @@ namespace LanguageKing
             }
             else
             {
-                DisplayAlert("No more words!", "Check back later to learn more!", "Back");
+                //DisplayAlert("No more words!", "Check back later to learn more!", "Back");
+                count = 0;
             }
             GetWord();
         }
@@ -53,6 +54,9 @@ namespace LanguageKing
             if (count > 0)
             {
                 count--;
+            }
+            else if(count==0) {
+                count = words.Count - 1;
             }
             GetWord();
         }
@@ -68,11 +72,11 @@ namespace LanguageKing
         {
             //sorrend: angol, francia, német, magyar, olasz
            
-            words.Add(new Word("one", "h un, une", "ein", "egy", "uno"));
+            words.Add(new Word("one", "un, une", "ein", "egy", "uno"));
             words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
-            words.Add(new Word("three", "h trois", "drei", "három", "tre"));
-            words.Add(new Word("four", "h quatre", "vier", "négy", "quattro"));
-            words.Add(new Word("five", "h cinq", "fünf", "öt", "cinque"));
+            words.Add(new Word("three", "trois", "drei", "három", "tre"));
+            words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
+            words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
             
         }
 

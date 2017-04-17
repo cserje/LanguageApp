@@ -19,6 +19,7 @@
         <Button Text="Fourth answer"></Button>-->
 
     <StackLayout Orientation="Vertical" Spacing="20">
+        <Label x:Name="pointLabel" Text="{Binding PointsLabelText}" HorizontalOptions="End"></Label>
         <Label x:Name="questionLabel" Text="{Binding QuestionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
 
         <Button x:Name="button1" Text="{Binding FirstButtonText}" HorizontalOptions="Fill" Clicked="button1_Clicked"/>

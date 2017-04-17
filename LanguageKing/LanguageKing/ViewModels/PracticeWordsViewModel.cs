@@ -16,7 +16,13 @@ namespace LanguageKing.ViewModels
         private string secondButtonText;
         private string thirdButtonText;
         private string fourthButtonText;
-
+        private int points = 0;
+      public String PointsLabelText{
+            get { return ("Points: " + points).ToString(); }
+            set { points = Int32.Parse(value);
+                OnPropertyChanged();
+            }
+        }
         public string QuestionLabelText
         {
             get

@@ -13,6 +13,7 @@ namespace LanguageKing.ViewModels
 
         private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro" };
+        private string[] listenButtonText = { "Listen", "Audition", "Hören", "Hallgatás", "Udito" };
         private string questionText = "Question1";
         private string answerText = "Answer1";
         public string QuestionText
@@ -37,6 +38,10 @@ namespace LanguageKing.ViewModels
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(QuestionText));
             }
+        }
+        public string ListenButtonText
+        {
+            get { return listenButtonText[ChooseLanguagePage.FirstLanguage]; }
         }
         public string NextButtonText
         {

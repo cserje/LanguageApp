@@ -9,11 +9,9 @@
                     WinPhone="10, 10, 10, 10" />
     </ContentPage.Padding>
     <StackLayout Orientation="Vertical" Spacing="20">
-    <!--<Entry x:Name="questionEntry" Text="{Binding QuestionText}"  HorizontalOptions="FillAndExpand" IsEnabled="False"></Entry>-->
-        <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium"></Label>
+    <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium"></Label>
         <Label x:Name="answerLabel" Text="{Binding AnswerText}" FontSize="Medium"></Label>
-        <!--<Entry x:Name="answerEntry" Text="{Binding AnswerText}" HorizontalOptions="FillAndExpand" IsEnabled="False"></Entry>-->
-        <Button x:Name="listenButton" Text="Listen" Clicked="listenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
+       <Button x:Name="listenButton" Text="{Binding ListenButtonText}" Clicked="listenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
             <Button x:Name="backButton" Text="{Binding BackButtonText}" Clicked="backButtonClicked" HorizontalOptions="FillAndExpand" ></Button>
             <Button x:Name="nextButton" Text="{Binding NextButtonText}" Clicked="nextButtonClicked" HorizontalOptions="FillAndExpand"></Button>
