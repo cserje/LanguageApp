@@ -21,15 +21,14 @@ namespace LanguageKing
             BindingContext = new MainMenuPageViewModel();
         }
 
-        private async Task learnButton_Clicked(object sender, EventArgs e)
+        private void  learnButton_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LearnWords());
+             Navigation.PushAsync(new LearnWords());
         }
 
         private void practiceButton_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Esemény", "Gyakorlás gomb megnyomva!", "Bezárás");
-            Navigation.PushAsync(new PracticeWords());
+                        Navigation.PushAsync(new PracticeWords());
         }
 
         private void CloseApplication(object sender, EventArgs e)
