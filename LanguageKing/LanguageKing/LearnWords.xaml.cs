@@ -23,8 +23,10 @@ namespace LanguageKing
             InitWords();
             InitializeComponent();
             BindingContext = new LearnWordsViewModel();
-            questionLabel.SetBinding(Label.TextProperty, "Text");
-            answerLabel.SetBinding(Label.TextProperty, "Text");
+
+            questionLabel.SetBinding(Label.TextProperty, "QuestionText");
+            answerLabel.SetBinding(Label.TextProperty, "AnswerText");
+
             GetWord();
         }
 
@@ -78,8 +80,9 @@ namespace LanguageKing
         {
             //Debug.WriteLine(words[count].getWord(ChooseLanguagePage.SecondLanguage));
             //Debug.WriteLine(words[count].getWord(ChooseLanguagePage.FirstLanguage));
-            questionLabel.BindingContext = new { Text = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
-            answerLabel.BindingContext = new { Text = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
+
+            questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
+            answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
         }
 
     }

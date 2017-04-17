@@ -47,9 +47,6 @@
     <Compile Include="MainMenuPage.xaml.cs">
       <DependentUpon>MainMenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Practice.xaml.cs">
-      <DependentUpon>Practice.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PracticeWords.xaml.cs">
       <DependentUpon>PracticeWords.xaml</DependentUpon>
     </Compile>
@@ -107,12 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PracticeWords.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Practice.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

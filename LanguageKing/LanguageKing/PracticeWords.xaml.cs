@@ -22,11 +22,11 @@ namespace LanguageKing
             InitWords();
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
-            questionLabel.SetBinding(Label.TextProperty, "Text");
-            button1.SetBinding(Label.TextProperty, "Text");
-            button2.SetBinding(Label.TextProperty, "Text");
-            button3.SetBinding(Label.TextProperty, "Text");
-            button4.SetBinding(Label.TextProperty, "Text");
+            questionLabel.SetBinding(Label.TextProperty, "QuestionLabelText");
+            button1.SetBinding(Label.TextProperty, "FirstButtonText");
+            button2.SetBinding(Label.TextProperty, "SecondButtonText");
+            button3.SetBinding(Label.TextProperty, "ThirdButtonText");
+            button4.SetBinding(Label.TextProperty, "FourthButtonText");
             GetWord();
         }
 
@@ -54,11 +54,11 @@ namespace LanguageKing
                 }                
             }
             
-            questionLabel.BindingContext = new { Text = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
-            button1.BindingContext = new { Text = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button2.BindingContext = new { Text = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button3.BindingContext = new { Text = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button4.BindingContext = new { Text = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
+            questionLabel.BindingContext = new { QuestionLabelText = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
+            button1.BindingContext = new { FirstButtonText = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
+            button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
+            button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
+            button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
         }
 
         private void InitWords()

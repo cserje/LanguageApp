@@ -93,9 +93,6 @@ C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\L
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Practice.xaml.g.cs
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
-C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
-C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
