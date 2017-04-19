@@ -9,17 +9,13 @@
                     Android="10, 10, 10, 10"
                     WinPhone="10, 10, 10, 10" />
     </ContentPage.Padding>
-    <!--<StackLayout Spacing="10" Orientation="Vertical" HorizontalOptions="Center">
-        <Entry Placeholder="Question" IsEnabled="False" Margin="50" HorizontalOptions="FillAndExpand"></Entry>
-       
-            <Button Text="First answer" HorizontalOptions="Fill"></Button>
-        <Button Text="Second answer"  ></Button>
 
-        <Button Text="Third answer"></Button>
-        <Button Text="Fourth answer"></Button>-->
 
     <StackLayout Orientation="Vertical" Spacing="20">
-        <Label x:Name="pointLabel" Text="{Binding PointsLabelText}" HorizontalOptions="End"></Label>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+            <Label Text="{Binding PointLabelText}" HorizontalOptions="End"></Label>
+            <Label x:Name="pointLabel" Text="{Binding PointsText}" HorizontalOptions="End"></Label>
+        </StackLayout>
         <Label x:Name="questionLabel" Text="{Binding QuestionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
 
         <Button x:Name="button1" Text="{Binding FirstButtonText}" HorizontalOptions="Fill" Clicked="button1_Clicked"/>

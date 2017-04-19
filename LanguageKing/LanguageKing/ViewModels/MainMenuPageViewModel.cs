@@ -13,6 +13,7 @@ namespace LanguageKing.ViewModels
        
         public string[] learnButtonText = { "Learn Words", "Apprendre des mots", "Wörter lernen", "Szavak tanulása", "Imparare le parolee" };
         public string[] practiceButtonText = { "Practice", "Praxis", "Pratique", "Gyakorlás", "Pratica" };
+        public string[] statisticsButtonText = { "Statistics", "Statistiques", "Statistiken", "Statisztikák", "Statistica" };
         public string[] quitButtonText = { "Quit", "Praxis", "Egress", "Kilépés", "Uscita" };
         public string LearnText
         {
@@ -21,6 +22,10 @@ namespace LanguageKing.ViewModels
        public string PracticeText
         {
             get { return practiceButtonText[ChooseLanguagePage.FirstLanguage]; }
+        }
+        public string StatisticsText
+        {
+            get { return statisticsButtonText[ChooseLanguagePage.FirstLanguage]; }
         }
         public string QuitText
         {

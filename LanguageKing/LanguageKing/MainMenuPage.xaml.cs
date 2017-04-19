@@ -13,8 +13,8 @@ namespace LanguageKing
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainMenuPage : ContentPage
     {
-
-
+        private Player player = new Player();
+       
         public MainMenuPage()
         {
             InitializeComponent();
@@ -28,7 +28,12 @@ namespace LanguageKing
 
         private void practiceButton_Clicked(object sender, EventArgs e)
         {
-             Navigation.PushAsync(new PracticeWords());
+             Navigation.PushAsync(new PracticeWords(player));
+        }
+
+        private void statisticsButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Statistics(player));
         }
 
         private void CloseApplication(object sender, EventArgs e)

@@ -1,12 +1,10 @@
 ﻿using LanguageKing.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Xml.Serialization;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 namespace LanguageKing
 {
@@ -18,10 +16,14 @@ namespace LanguageKing
         private List<int> randoms = new List<int>();
         private int correctAnswer = -1;
         private int incrementPointsValue = 10;
-        private int points = 0;
+        private int decrementPointsValue = -10;
+        private int currentPoints = 0;
+        private int iteration = 0;
+        Player player;
 
-        public PracticeWords()
+        public PracticeWords(Player player)
         {
+            this.player = player;
             InitWords();
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
@@ -31,49 +33,55 @@ namespace LanguageKing
             button2.SetBinding(Button.TextProperty, "SecondButtonText");
             button3.SetBinding(Button.TextProperty, "ThirdButtonText");
             button4.SetBinding(Button.TextProperty, "FourthButtonText");
+            pointLabel.BindingContext = new { PointLabelText = currentPoints };
             nextButton.IsEnabled = false;
             GetWord();
         }
 
         private void GetWord()
         {
+            iteration++;
+
             //létrehozunk egy intet, az alap listában annyiadik szó lesz a kérdés
             int questionNumber = rnd.Next(words.Count);
-            //a random listába belepakoljuk ezt a számot
-            randoms.Add(questionNumber);
+                //a random listába belepakoljuk ezt a számot
+                randoms.Add(questionNumber);
 
-            int i = 0;
-            //kiválasztjuk, hogy a jó válasznak mi legyen az indexe
-            int correctAns = rnd.Next(4);
-            correctAnswer = correctAns;
-            while (i < 4)
-            {
-                if (i == correctAns)
+                int i = 0;
+                //kiválasztjuk, hogy a jó válasznak mi legyen az indexe
+                int correctAns = rnd.Next(4);
+                correctAnswer = correctAns;
+                while (i < 4)
                 {
-                    randoms.Add(questionNumber);
-                    i++;
-                } else
-                {
-                    int answer = rnd.Next(words.Count);
-                    if (!randoms.Contains(answer))
+                    if (i == correctAns)
                     {
-                        randoms.Add(answer);
+                        randoms.Add(questionNumber);
                         i++;
                     }
-                }                
-            }
-            
-            questionLabel.BindingContext = new { QuestionLabelText = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
-            button1.BindingContext = new { FirstButtonText = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
-            button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
+                    else
+                    {
+                        int answer = rnd.Next(words.Count);
+                        if (!randoms.Contains(answer))
+                        {
+                            randoms.Add(answer);
+                            i++;
+                        }
+                    }
+                }
+
+                questionLabel.BindingContext = new { QuestionLabelText = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
+                button1.BindingContext = new { FirstButtonText = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
+                button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
+                button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
+                button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
+
+
+           
         }
 
         private void InitWords()
         {
             //sorrend: angol, francia, német, magyar, olasz
-
             words.Add(new Word("one", "h un, une", "ein", "egy", "uno"));
             words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
             words.Add(new Word("three", "h trois", "drei", "három", "tre"));
@@ -88,6 +96,7 @@ namespace LanguageKing
             button3.IsEnabled = false;
             button4.IsEnabled = false;
             nextButton.IsEnabled = true;
+           
         }
         private void enableButtons()
         {
@@ -101,70 +110,60 @@ namespace LanguageKing
             button3.BackgroundColor = Color.LightGray;
             button4.BackgroundColor = Color.LightGray;
         }
+        private void CorrectAnswer(Button button)
+        {
+            
+                button.BackgroundColor = Color.LightGreen;
+                currentPoints += incrementPointsValue;
+                pointLabel.BindingContext = new { PointLabelText = currentPoints };
+            player.CorrectAnswers++;
+            if (iteration >= 10)
+            {
+                AlertAndClose();
+            }
+
+
+        }
+        private void IncorrectAnswer(Button button)
+        {
+            button.BackgroundColor = Color.Red;
+            currentPoints += decrementPointsValue;
+            pointLabel.BindingContext = new { PointLabelText = currentPoints };
+            player.IncorrectAnswers++;
+            if (iteration >= 10)
+            {
+                AlertAndClose();
+            }
+
+        }
+      
+        private void AlertAndClose()
+        {
+            DisplayAlert("Question", "Do you want to reset the search-options?", "Back");
+            Navigation.PopAsync();
+        }
         private void button1_Clicked(object sender, EventArgs e)
         {
-            if (correctAnswer == 0)
-            {
-               
-                button1.BackgroundColor = Color.LightGreen;
-                points += incrementPointsValue;
-                pointLabel.BindingContext = new { PointLabelText = points};
-            }
-            else
-            {
-                
-                button1.BackgroundColor = Color.Red;
-            }
+            if (correctAnswer == 0) CorrectAnswer(button1);
+            else IncorrectAnswer(button1);
             disableButtons();
         }
         private void button2_Clicked(object sender, EventArgs e)
         {
-            if (correctAnswer == 1)
-            {
-                
-                button2.BackgroundColor = Color.LightGreen;
-                points += incrementPointsValue;
-                pointLabel.BindingContext = new { PointLabelText = points };
-
-            }
-            else
-            {
-               
-                button2.BackgroundColor = Color.Red;
-
-            }
+            if (correctAnswer == 1) CorrectAnswer(button2);
+            else IncorrectAnswer(button2);
             disableButtons();
         }
         private void button3_Clicked(object sender, EventArgs e)
         {
-            if (correctAnswer == 2)
-            {
-                
-                button3.BackgroundColor = Color.LightGreen;
-                points += incrementPointsValue;
-                pointLabel.BindingContext = new { PointLabelText = points };
-            }
-            else
-            {
-              
-                button3.BackgroundColor = Color.Red;
-            }
+            if (correctAnswer == 2) CorrectAnswer(button3);
+            else IncorrectAnswer(button3);
             disableButtons();
         }
         private void button4_Clicked(object sender, EventArgs e)
         {
-            if (correctAnswer == 3)
-            {
-                
-                button4.BackgroundColor = Color.LightGreen;
-                points += incrementPointsValue;
-                pointLabel.BindingContext = new { PointLabelText = points };
-            }
-            else
-            {
-                
-                button4.BackgroundColor = Color.Red;
-            }
+            if (correctAnswer == 3) CorrectAnswer(button4);
+            else IncorrectAnswer(button4);
             disableButtons();
         }
 
