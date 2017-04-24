@@ -2,6 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LanguageKing.Statistics">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="10, 30, 10, 10"
+                    Android="10, 10, 10, 10"
+                    WinPhone="10, 10, 10, 10" />
+    </ContentPage.Padding>
+
     <StackLayout Orientation="Vertical">
       
         <StackLayout Orientation="Horizontal">
@@ -12,10 +19,10 @@
             <Label Text="{Binding IncorrectWordsText}"></Label>
             <Label x:Name="incorrectWordLabel" Text="{Binding IncorrectWordsCount}"></Label>
         </StackLayout>
-        <StackLayout Orientation="Horizontal">
+        <!--<StackLayout Orientation="Horizontal">
             <Label Text="{Binding PercentageText}"></Label>
             <Label x:Name="percentageLabel" Text="{Binding PercentageValue}"></Label>
-        </StackLayout>
+        </StackLayout>-->
 
     </StackLayout>
 </ContentPage>

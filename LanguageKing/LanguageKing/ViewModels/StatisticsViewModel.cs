@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LanguageKing.ViewModels
 {
-   class StatisticsViewModel : INotifyPropertyChanged
+   class StatisticsViewModel 
     {
 
 
@@ -16,7 +16,7 @@ namespace LanguageKing.ViewModels
         private int correctWords = 0;
         private string[] incorrectText = { "Incorrect Words: ", "Mots incorrects: ", "Falsche Wörter: ", "Helytelen megfejtés: ", "Parole errate: " };
         private int incorrectWords = 0;
-        private string[] percentageText = { "Percentage: ", "Pourcentage: ", "Prozentsatz: ", "Százalék: ", "Percentuale: " };
+        //private string[] percentageText = { "Percentage: ", "Pourcentage: ", "Prozentsatz: ", "Százalék: ", "Percentuale: " };
 
         public string CorrectWordsText
         {
@@ -26,8 +26,7 @@ namespace LanguageKing.ViewModels
         {
             get { return correctWords; }
             set { correctWords = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(PercentageValue));
+               
             }
         }
         public string IncorrectWordsText
@@ -38,38 +37,33 @@ namespace LanguageKing.ViewModels
         {
             get { return incorrectWords; }
             set { incorrectWords = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(PercentageValue));
+               
             }
 
         }
-        public string PercentageText
-        {
-            get { return percentageText[ChooseLanguagePage.FirstLanguage]; }
+        //public string PercentageText
+        //{
+        //    get { return percentageText[ChooseLanguagePage.FirstLanguage]; }
             
-        }
-        public double PercentageValue
-        {
-            get
-            {
-                if (correctWords == 0)
-                {
-                    return 0;
-                }
-                else if (incorrectWords == 0)
-                {
-                    return 100;
-                }
-                else
-                    return ((double)correctWords / (double)incorrectWords)*100;
-            }
-          
-        }
-        public event PropertyChangedEventHandler PropertyChanged;
-        void OnPropertyChanged([CallerMemberName] string name = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
+        //}
+        //public double PercentageValue
+        //{
+        //    get
+        //    {
+        //        if (correctWords == 0)
+        //        {
+        //            return 0;
+        //        }
+        //        else if (incorrectWords == 0)
+        //        {
+        //            return 100;
+        //        }
+        //        else
+        //            return ((double)correctWords / (double)incorrectWords)*100;
+        //    }
+
+        //}
+
 
     }
 }

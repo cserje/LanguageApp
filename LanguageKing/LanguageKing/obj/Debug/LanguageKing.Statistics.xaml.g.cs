@@ -11,8 +11,7 @@
 namespace LanguageKing {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Cserje\\Documents\\Visual Studio 2017\\Projects\\LanguageApp\\LanguageKing\\La" +
-        "nguageKing\\Statistics.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Versions\\LanguageApp\\LanguageKing\\LanguageKing\\Statistics.xaml")]
     public partial class Statistics : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -22,14 +21,10 @@ namespace LanguageKing {
         private global::Xamarin.Forms.Label incorrectWordLabel;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label percentageLabel;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Statistics));
             correctWordLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "correctWordLabel");
             incorrectWordLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "incorrectWordLabel");
-            percentageLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "percentageLabel");
         }
     }
 }

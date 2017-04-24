@@ -21,7 +21,7 @@ namespace LanguageKing
             correctWordLabel.SetBinding(Label.TextProperty, "CorrectWordsCount");
             incorrectWordLabel.SetBinding(Label.TextProperty, "IncorrectWordsCount");
 
-            percentageLabel.SetBinding(Label.TextProperty, "PercentageValue");
+            //percentageLabel.SetBinding(Label.TextProperty, "PercentageValue");
 
            correctWordLabel.BindingContext = new { CorrectWordsCount = player.CorrectAnswers };
            incorrectWordLabel.BindingContext = new { IncorrectWordsCount = player.IncorrectAnswers };

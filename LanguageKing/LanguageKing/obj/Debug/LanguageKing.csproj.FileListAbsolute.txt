@@ -98,5 +98,25 @@ C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\L
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Statistics.xaml.g.cs
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
-C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
-C:\Users\Cserje\Documents\Visual Studio 2017\Projects\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.MainMenuPage.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.LearnWords.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PracticeWords.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.TempPage.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Statistics.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb

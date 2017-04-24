@@ -15,9 +15,9 @@ namespace LanguageKing
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LearnWords : ContentPage
     {
-        private int count=0;
-        private List<Word> words=new List<Word>();
-       
+        private int count = 0;
+        private List<Word> words = new List<Word>();
+
         public LearnWords()
         {
             InitWords();
@@ -31,8 +31,8 @@ namespace LanguageKing
         }
 
         private void Learn()
-        {            
-            InitWords();            
+        {
+            InitWords();
         }
 
         public void nextButtonClicked(object sender, EventArgs e)
@@ -55,7 +55,8 @@ namespace LanguageKing
             {
                 count--;
             }
-            else if(count==0) {
+            else if (count == 0)
+            {
                 count = words.Count - 1;
             }
             GetWord();
@@ -63,33 +64,31 @@ namespace LanguageKing
 
         public void listenButtonClicked(object sender, EventArgs e)
         {
-            String text = questionLabel.Text;
+            String text = answerLabel.Text;
             DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
-           
+
         }
 
         private void InitWords()
         {
             //sorrend: angol, francia, német, magyar, olasz
-           
+
             words.Add(new Word("one", "un, une", "ein", "egy", "uno"));
             words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
             words.Add(new Word("three", "trois", "drei", "három", "tre"));
             words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
             words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
-            
+
         }
 
         private void GetWord()
         {
-            //Debug.WriteLine(words[count].getWord(ChooseLanguagePage.SecondLanguage));
-            //Debug.WriteLine(words[count].getWord(ChooseLanguagePage.FirstLanguage));
 
-            questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
-            answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
+            questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
+            answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
         }
 
     }
 
-    
+
 }

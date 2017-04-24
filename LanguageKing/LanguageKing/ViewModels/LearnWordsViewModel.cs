@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace LanguageKing.ViewModels
 {
@@ -14,8 +10,8 @@ namespace LanguageKing.ViewModels
         private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro" };
         private string[] listenButtonText = { "Listen", "Audition", "Hören", "Hallgatás", "Udito" };
-        private string questionText = "Question1";
-        private string answerText = "Answer1";
+        private string questionText;
+        private string answerText;
         public string QuestionText
         {
             get

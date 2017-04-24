@@ -139,7 +139,8 @@ namespace LanguageKing
       
         private void AlertAndClose()
         {
-            DisplayAlert("Question", "Do you want to reset the search-options?", "Back");
+            //TODO: több nyelven, vagy valamit ki kellene találni ide.
+            DisplayAlert("Game over", "You will be returned to the main page.", "Ok");
             Navigation.PopAsync();
         }
         private void button1_Clicked(object sender, EventArgs e)
