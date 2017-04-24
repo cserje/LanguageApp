@@ -12,12 +12,12 @@
     <StackLayout Orientation="Vertical">
       
         <StackLayout Orientation="Horizontal">
-            <Label Text="{Binding CorrectWordsText}"></Label>
-            <Label x:Name="correctWordLabel" Text="{Binding CorrectWordsCount}"></Label>
+            <Label Text="{Binding CorrectWordsText}" FontSize="Medium"></Label>
+            <Label x:Name="correctWordLabel" Text="{Binding CorrectWordsCount}" FontSize="Medium"></Label>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="{Binding IncorrectWordsText}"></Label>
-            <Label x:Name="incorrectWordLabel" Text="{Binding IncorrectWordsCount}"></Label>
+            <Label Text="{Binding IncorrectWordsText}" FontSize="Medium"></Label>
+            <Label x:Name="incorrectWordLabel" Text="{Binding IncorrectWordsCount}" FontSize="Medium"></Label>
         </StackLayout>
         <!--<StackLayout Orientation="Horizontal">
             <Label Text="{Binding PercentageText}"></Label>
