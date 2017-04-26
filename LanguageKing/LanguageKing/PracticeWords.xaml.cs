@@ -133,7 +133,7 @@ namespace LanguageKing
             currentPoints += decrementPointsValue;
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.IncorrectAnswers++;
-            if (iteration >= 10)
+            if (iteration >= limit)
             {
                 AlertAndClose();
             }

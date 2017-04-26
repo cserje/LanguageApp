@@ -128,5 +128,3 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
