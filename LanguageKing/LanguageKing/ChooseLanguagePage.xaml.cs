@@ -36,8 +36,12 @@ namespace LanguageKing
         }
         void OnSecondLanguageChanged(object sender, EventArgs e)
         {
-           
-            SecondLanguage = secondLanguagePicker.SelectedIndex;
+           if(secondLanguagePicker.SelectedIndex>=FirstLanguage)
+            SecondLanguage = secondLanguagePicker.SelectedIndex+1;
+            else
+            {
+                SecondLanguage = secondLanguagePicker.SelectedIndex;
+            }
         }
 
         async void OnSelectLanguagesAsync(object sender, EventArgs e)

@@ -30,6 +30,7 @@ namespace LanguageKing.ViewModels
                 List<string> temp = new List<string>();
                 for (int i = 0; i < secondLanguages.GetLength(1); ++i)
                 {
+                    if(i!=firstLanguageSelectedIndex)
                     temp.Add(secondLanguages[firstLanguageSelectedIndex, i]);
                 }
 
