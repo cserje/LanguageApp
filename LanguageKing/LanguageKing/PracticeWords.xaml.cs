@@ -29,14 +29,14 @@ namespace LanguageKing
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
             pointLabel.SetBinding(Label.TextProperty, "PointLabelText");
-            goodPerBadLabel.SetBinding(Label.TextProperty, "GoodPerBadLabelText");
+            countLabel.SetBinding(Label.TextProperty, "GoodPerBadLabelText");
             questionLabel.SetBinding(Label.TextProperty, "QuestionLabelText");
             button1.SetBinding(Button.TextProperty, "FirstButtonText");
             button2.SetBinding(Button.TextProperty, "SecondButtonText");
             button3.SetBinding(Button.TextProperty, "ThirdButtonText");
             button4.SetBinding(Button.TextProperty, "FourthButtonText");
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
-            goodPerBadLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
+            countLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
             nextButton.IsEnabled = false;
             GetWord();
         }
@@ -77,19 +77,16 @@ namespace LanguageKing
                 button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
                 button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
                 button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
-
-
-           
         }
 
         private void InitWords()
         {
             //sorrend: angol, francia, német, magyar, olasz
-            words.Add(new Word("one", "h un, une", "ein", "egy", "uno"));
+            words.Add(new Word("one", "un, une", "ein", "egy", "uno"));
             words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
-            words.Add(new Word("three", "h trois", "drei", "három", "tre"));
-            words.Add(new Word("four", "h quatre", "vier", "négy", "quattro"));
-            words.Add(new Word("five", "h cinq", "fünf", "öt", "cinque"));
+            words.Add(new Word("three", "trois", "drei", "három", "tre"));
+            words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
+            words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
 
         }
         private void DisableButtons()
@@ -173,7 +170,7 @@ namespace LanguageKing
 
         private void NextButton_Clicked(object sender, EventArgs e)
         {
-            goodPerBadLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
+            countLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
             EnableButtons();
             randoms.Clear();
             GetWord();

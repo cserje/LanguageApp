@@ -24,25 +24,27 @@
                             HorizontalOptions="Center" SelectedIndex="{Binding FirstLanguageSelectedIndex}">
                     <Picker.Items>
                         <x:String>English</x:String>
-                        <x:String>French</x:String>
-                        <x:String>German</x:String>
-                        <x:String>Hungarian</x:String>
-                        <x:String>Italian</x:String>
+                        <x:String>Francais</x:String>
+                        <x:String>Deutsch</x:String>
+                        <x:String>Magyar</x:String>
+                        <x:String>Italiano</x:String>
                     </Picker.Items>
                 </Picker>
-              
-               
-                        <Picker x:Name="secondLanguagePicker"
+
+
+                <Picker x:Name="secondLanguagePicker"
                             Title="{Binding SecondLanguagePlaceHolder}" 
                             SelectedIndexChanged="OnSecondLanguageChanged"
-                            HorizontalOptions="Center">
-                    <Picker.Items>
+                            HorizontalOptions="Center"
+                            ItemsSource="{Binding SecondLanguages}"
+                        >
+                    <!--<Picker.Items>
                         <x:String>English</x:String>
                         <x:String>French</x:String>
                         <x:String>German</x:String>
                         <x:String>Hungarian</x:String>
                         <x:String>Italian</x:String>
-                    </Picker.Items>
+                    </Picker.Items>-->
                 </Picker>
             </StackLayout>
             <Button x:Name="nextButton" Text="{Binding NextText}" IsEnabled="True" Clicked="OnSelectLanguagesAsync"></Button>

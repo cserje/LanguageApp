@@ -15,7 +15,7 @@
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
             <Label Text="{Binding PointLabelText}" HorizontalOptions="Start"></Label>
             <Label x:Name="pointLabel" Text="{Binding PointsText}" HorizontalOptions="Start"></Label>
-            <Label x:Name="goodPerBadLabel" Text="{Binding GoodPerBadLabelText}" HorizontalOptions="EndAndExpand"></Label>
+            <Label x:Name="countLabel" Text="{Binding GoodPerBadLabelText}" HorizontalOptions="EndAndExpand"></Label>
         </StackLayout>
         <Label x:Name="questionLabel" Text="{Binding QuestionLabelText}" HorizontalOptions="Center" FontSize="Medium" />
 

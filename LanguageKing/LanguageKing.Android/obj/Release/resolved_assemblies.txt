@@ -27,6 +27,7 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\as
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.Xml.Linq.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.Runtime.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.ComponentModel.Composition.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.IO.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.Runtime.Numerics.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.Numerics.dll
