@@ -11,10 +11,10 @@
     <StackLayout Orientation="Vertical" Spacing="20">
     <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium"></Label>
         <Label x:Name="answerLabel" Text="{Binding AnswerText}" FontSize="Medium"></Label>
-       <Button x:Name="listenButton" Text="{Binding ListenButtonText}" Clicked="listenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
+       <Button x:Name="listenButton" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-            <Button x:Name="backButton" Text="{Binding BackButtonText}" Clicked="backButtonClicked" HorizontalOptions="FillAndExpand" ></Button>
-            <Button x:Name="nextButton" Text="{Binding NextButtonText}" Clicked="nextButtonClicked" HorizontalOptions="FillAndExpand"></Button>
+            <Button x:Name="backButton" Text="{Binding BackButtonText}" Clicked="BackButtonClicked" HorizontalOptions="FillAndExpand" ></Button>
+            <Button x:Name="nextButton" Text="{Binding NextButtonText}" Clicked="NextButtonClicked" HorizontalOptions="FillAndExpand"></Button>
         </StackLayout>
     </StackLayout>
 </ContentPage>

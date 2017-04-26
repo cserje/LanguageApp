@@ -13,6 +13,14 @@ namespace LanguageKing
         private int points=0;
         private int correctAnswers = 0;
         private int incorrectAnswers = 0;
+        private string name;
+
+        public Player(string name, int points)
+        {
+            this.name = name;
+            this.points = points;
+        }
+
         public int Points
         {
             get { return points; }

@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "LanguageKing.Android.dll" comes first in this list. */
 		"LanguageKing.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.TextToSpeech.Abstractions.dll",
 		"Plugin.TextToSpeech.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
@@ -118,5 +119,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

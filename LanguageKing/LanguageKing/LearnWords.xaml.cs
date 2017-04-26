@@ -35,7 +35,7 @@ namespace LanguageKing
             InitWords();
         }
 
-        public void nextButtonClicked(object sender, EventArgs e)
+        public void NextButtonClicked(object sender, EventArgs e)
         {
             if (count < words.Count - 1)
             {
@@ -49,7 +49,7 @@ namespace LanguageKing
             GetWord();
         }
 
-        public void backButtonClicked(object sender, EventArgs e)
+        public void BackButtonClicked(object sender, EventArgs e)
         {
             if (count > 0)
             {
@@ -62,7 +62,7 @@ namespace LanguageKing
             GetWord();
         }
 
-        public void listenButtonClicked(object sender, EventArgs e)
+        public void ListenButtonClicked(object sender, EventArgs e)
         {
             String text = answerLabel.Text;
             DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);

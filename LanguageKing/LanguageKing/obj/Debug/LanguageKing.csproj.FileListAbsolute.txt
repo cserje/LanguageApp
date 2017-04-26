@@ -118,5 +118,15 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.TempPag
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Statistics.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Newtonsoft.Json.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.dll
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Newtonsoft.Json.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.pdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Plugin.TextToSpeech.Abstractions.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb

@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "LanguageKing.Android.dll" comes first in this list. */
 		"LanguageKing.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.TextToSpeech.Abstractions.dll",
 		"Plugin.TextToSpeech.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",

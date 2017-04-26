@@ -19,6 +19,7 @@ namespace LanguageKing
         private int decrementPointsValue = -10;
         private int currentPoints = 0;
         private int iteration = 0;
+        private int limit = 5;
         Player player;
 
         public PracticeWords(Player player)
@@ -28,12 +29,14 @@ namespace LanguageKing
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
             pointLabel.SetBinding(Label.TextProperty, "PointLabelText");
+            goodPerBadLabel.SetBinding(Label.TextProperty, "GoodPerBadLabelText");
             questionLabel.SetBinding(Label.TextProperty, "QuestionLabelText");
             button1.SetBinding(Button.TextProperty, "FirstButtonText");
             button2.SetBinding(Button.TextProperty, "SecondButtonText");
             button3.SetBinding(Button.TextProperty, "ThirdButtonText");
             button4.SetBinding(Button.TextProperty, "FourthButtonText");
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
+            goodPerBadLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
             nextButton.IsEnabled = false;
             GetWord();
         }
@@ -89,7 +92,7 @@ namespace LanguageKing
             words.Add(new Word("five", "h cinq", "fünf", "öt", "cinque"));
 
         }
-        private void disableButtons()
+        private void DisableButtons()
         {
             button1.IsEnabled = false;
             button2.IsEnabled = false;
@@ -98,7 +101,7 @@ namespace LanguageKing
             nextButton.IsEnabled = true;
            
         }
-        private void enableButtons()
+        private void EnableButtons()
         {
             button1.IsEnabled = true;
             button2.IsEnabled = true;
@@ -117,7 +120,7 @@ namespace LanguageKing
                 currentPoints += incrementPointsValue;
                 pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.CorrectAnswers++;
-            if (iteration >= 10)
+            if (iteration >= limit)
             {
                 AlertAndClose();
             }
@@ -139,38 +142,39 @@ namespace LanguageKing
       
         private void AlertAndClose()
         {
-            //TODO: több nyelven, vagy valamit ki kellene találni ide.
-            DisplayAlert("Game over", "You will be returned to the main page.", "Ok");
-            Navigation.PopAsync();
+           
+            Navigation.PushAsync(new Statistics(player));
+            Navigation.RemovePage(this);
         }
-        private void button1_Clicked(object sender, EventArgs e)
+        private void Button1_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 0) CorrectAnswer(button1);
             else IncorrectAnswer(button1);
-            disableButtons();
+            DisableButtons();
         }
-        private void button2_Clicked(object sender, EventArgs e)
+        private void Button2_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 1) CorrectAnswer(button2);
             else IncorrectAnswer(button2);
-            disableButtons();
+            DisableButtons();
         }
-        private void button3_Clicked(object sender, EventArgs e)
+        private void Button3_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 2) CorrectAnswer(button3);
             else IncorrectAnswer(button3);
-            disableButtons();
+            DisableButtons();
         }
-        private void button4_Clicked(object sender, EventArgs e)
+        private void Button4_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 3) CorrectAnswer(button4);
             else IncorrectAnswer(button4);
-            disableButtons();
+            DisableButtons();
         }
 
-        private void nextButton_Clicked(object sender, EventArgs e)
+        private void NextButton_Clicked(object sender, EventArgs e)
         {
-            enableButtons();
+            goodPerBadLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
+            EnableButtons();
             randoms.Clear();
             GetWord();
         }

@@ -11,22 +11,27 @@ namespace LanguageKing.ViewModels
     class PracticeWordsViewModel : INotifyPropertyChanged
     {
         private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
-        private string[] pointLabelText = { "Points: ","Points: ","Punkte: ","Pontok: ","Punti: " };
+        private string[] pointLabelText = { "Points: ", "Points: ", "Punkte: ", "Pontok: ", "Punti: " };
         private string questionLabelText;
         private string firstButtonText;
         private string secondButtonText;
         private string thirdButtonText;
         private string fourthButtonText;
         private int points = 0;
-
+        private string counter = "";
+        public string GoodPerBadLabelText {  set { counter = value; } }
         public string PointLabelText
         {
             get { return pointLabelText[ChooseLanguagePage.FirstLanguage]; }
         }
-        public int PointsText{
+        public int PointsText
+        {
             get { return points; }
-            set { points = value;
+            set
+            {
+                points = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(GoodPerBadLabelText));
             }
         }
         public string QuestionLabelText
