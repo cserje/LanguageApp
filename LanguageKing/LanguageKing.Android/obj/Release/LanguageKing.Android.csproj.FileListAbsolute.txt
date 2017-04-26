@@ -90,5 +90,6 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\as
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\android\assets\System.ComponentModel.Composition.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Release\LanguageKing.Android.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\bin\Release\LanguageKing.Android.dll.mdb

@@ -27,3 +27,9 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\Newtonsoft.Json.dl
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\Newtonsoft.Json.xml
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb

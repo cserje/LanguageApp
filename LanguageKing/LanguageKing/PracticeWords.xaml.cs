@@ -117,10 +117,7 @@ namespace LanguageKing
                 currentPoints += incrementPointsValue;
                 pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.CorrectAnswers++;
-            if (iteration >= limit)
-            {
-                AlertAndClose();
-            }
+           
 
 
         }
@@ -130,10 +127,7 @@ namespace LanguageKing
             currentPoints += decrementPointsValue;
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.IncorrectAnswers++;
-            if (iteration >= limit)
-            {
-                AlertAndClose();
-            }
+           
 
         }
       
@@ -170,10 +164,17 @@ namespace LanguageKing
 
         private void NextButton_Clicked(object sender, EventArgs e)
         {
-            countLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
-            EnableButtons();
-            randoms.Clear();
-            GetWord();
+            if (iteration >= limit)
+            {
+                AlertAndClose();
+            }
+            else
+            {
+                countLabel.BindingContext = new { GoodPerBadLabelText = (iteration + 1).ToString() + "/" + limit.ToString() };
+                EnableButtons();
+                randoms.Clear();
+                GetWord();
+            }
         }
     }
 }
