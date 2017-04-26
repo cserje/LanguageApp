@@ -116,12 +116,12 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Core.x
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Platform.pdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.MainMenuPage.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.LearnWords.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PracticeWords.xaml.g.cs
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.TempPage.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Statistics.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb

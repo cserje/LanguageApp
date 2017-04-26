@@ -14,7 +14,7 @@ namespace LanguageKing
         {
            
             InitializeComponent();
-            MainPage = new NavigationPage(new LanguageKing.ChooseLanguagePage("Hello"));
+            MainPage = new NavigationPage(new ChooseLanguagePage());
         }
     
 

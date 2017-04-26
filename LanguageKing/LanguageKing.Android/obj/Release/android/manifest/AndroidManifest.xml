@@ -3,7 +3,7 @@
   <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="LanguageKing.Android" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+  <application android:label="LanguageKing.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="LanguageKing" android:theme="@style/MainTheme" android:name="md54ab1008f7935bb04e064f6abca8165c3.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
