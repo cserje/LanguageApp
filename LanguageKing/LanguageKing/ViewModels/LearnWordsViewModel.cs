@@ -7,8 +7,8 @@ namespace LanguageKing.ViewModels
     class LearnWordsViewModel : INotifyPropertyChanged
     {
 
-        private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
-        private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro" };
+        private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente", };
+        private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro", };
         private string[] listenButtonText = { "Listen", "Audition", "Hören", "Hallgatás", "Udito" };
         private string questionText;
         private string answerText;
