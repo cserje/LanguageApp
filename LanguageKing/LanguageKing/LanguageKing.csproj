@@ -62,6 +62,7 @@
     <Compile Include="ViewModels\PracticeWordsViewModel.cs" />
     <Compile Include="ViewModels\StatisticsViewModel.cs" />
     <Compile Include="Word.cs" />
+    <Compile Include="WordList.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">

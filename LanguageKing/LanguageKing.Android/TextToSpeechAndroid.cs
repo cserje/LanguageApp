@@ -15,7 +15,15 @@ namespace DependencyServiceSample.Droid
         TextToSpeech speaker;
         string toSpeak;
 
-        public TextToSpeechAndroid() { }
+        public TextToSpeechAndroid()
+        {
+
+        }
+
+        public void SetLocale(int lang)
+        {
+            
+        }
 
         public void Speak(string text, int lang)
         {
@@ -46,7 +54,7 @@ namespace DependencyServiceSample.Droid
             }
             catch (Exception e)
             {
-                
+
             }
             var ctx = Forms.Context; // useful for many Android SDK features
             toSpeak = text;

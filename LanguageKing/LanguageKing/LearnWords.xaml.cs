@@ -16,28 +16,25 @@ namespace LanguageKing
     public partial class LearnWords : ContentPage
     {
         private int count = 0;
-        private List<Word> words = new List<Word>();
+        private WordList wordList = new WordList();
 
         public LearnWords()
         {
-            InitWords();
+            wordList.InitWords();
             InitializeComponent();
             BindingContext = new LearnWordsViewModel();
 
             questionLabel.SetBinding(Label.TextProperty, "QuestionText");
             answerLabel.SetBinding(Label.TextProperty, "AnswerText");
 
-            GetWord();
-        }
+            DependencyService.Get<ITextToSpeech>().SetLocale(ChooseLanguagePage.SecondLanguage);
 
-        private void Learn()
-        {
-            InitWords();
+            GetWords();
         }
 
         public void NextButtonClicked(object sender, EventArgs e)
         {
-            if (count < words.Count - 1)
+            if (count < wordList.GetSize() - 1)
             {
                 count++;
             }
@@ -46,7 +43,7 @@ namespace LanguageKing
                 //DisplayAlert("No more words!", "Check back later to learn more!", "Back");
                 count = 0;
             }
-            GetWord();
+            GetWords();
         }
 
         public void BackButtonClicked(object sender, EventArgs e)
@@ -57,35 +54,24 @@ namespace LanguageKing
             }
             else if (count == 0)
             {
-                count = words.Count - 1;
+                count = wordList.GetSize() - 1;
             }
-            GetWord();
+            GetWords();
         }
 
         public void ListenButtonClicked(object sender, EventArgs e)
         {
             String text = answerLabel.Text;
             DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
-
         }
 
-        private void InitWords()
+        private void GetWords()
         {
-            //sorrend: angol, francia, német, magyar, olasz
+            questionLabel.BindingContext = new { QuestionText = wordList.GetWord(count, ChooseLanguagePage.FirstLanguage) };
+            answerLabel.BindingContext = new { AnswerText = wordList.GetWord(count, ChooseLanguagePage.SecondLanguage) };
 
-            words.Add(new Word("one", "un, une", "ein", "egy", "uno"));
-            words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
-            words.Add(new Word("three", "trois", "drei", "három", "tre"));
-            words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
-            words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
-
-        }
-
-        private void GetWord()
-        {
-
-            questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
-            answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
+            //questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
+            //answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
         }
 
     }

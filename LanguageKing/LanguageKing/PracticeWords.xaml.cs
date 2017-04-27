@@ -11,7 +11,7 @@ namespace LanguageKing
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PracticeWords : ContentPage
     {
-        private List<Word> words = new List<Word>();
+        private WordList wordList = new WordList();
         private Random rnd = new Random();
         private List<int> randoms = new List<int>();
         private int correctAnswer = -1;
@@ -25,7 +25,7 @@ namespace LanguageKing
         public PracticeWords(Player player)
         {
             this.player = player;
-            InitWords();
+            wordList.InitWords();
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
             pointLabel.SetBinding(Label.TextProperty, "PointLabelText");
@@ -46,7 +46,7 @@ namespace LanguageKing
             iteration++;
 
             //létrehozunk egy intet, az alap listában annyiadik szó lesz a kérdés
-            int questionNumber = rnd.Next(words.Count);
+            int questionNumber = rnd.Next(wordList.GetSize());
                 //a random listába belepakoljuk ezt a számot
                 randoms.Add(questionNumber);
 
@@ -63,7 +63,7 @@ namespace LanguageKing
                     }
                     else
                     {
-                        int answer = rnd.Next(words.Count);
+                        int answer = rnd.Next(wordList.GetSize());
                         if (!randoms.Contains(answer))
                         {
                             randoms.Add(answer);
@@ -71,24 +71,19 @@ namespace LanguageKing
                         }
                     }
                 }
+                questionLabel.BindingContext = new { QuestionLabelText = wordList.GetWord(questionNumber, ChooseLanguagePage.SecondLanguage) };
+                button1.BindingContext = new { FirstButtonText = wordList.GetWord(randoms[1], ChooseLanguagePage.FirstLanguage) };
+                button2.BindingContext = new { SecondButtonText = wordList.GetWord(randoms[2], ChooseLanguagePage.FirstLanguage) };
+                button3.BindingContext = new { ThirdButtonText = wordList.GetWord(randoms[3], ChooseLanguagePage.FirstLanguage) };
+                button4.BindingContext = new { FourthButtonText = wordList.GetWord(randoms[4], ChooseLanguagePage.FirstLanguage) };
 
-                questionLabel.BindingContext = new { QuestionLabelText = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
-                button1.BindingContext = new { FirstButtonText = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
-                button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
-                button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
-                button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
+                //questionLabel.BindingContext = new { QuestionLabelText = words[questionNumber].getWord(ChooseLanguagePage.SecondLanguage) };
+                //button1.BindingContext = new { FirstButtonText = words[randoms[1]].getWord(ChooseLanguagePage.FirstLanguage) };
+                //button2.BindingContext = new { SecondButtonText = words[randoms[2]].getWord(ChooseLanguagePage.FirstLanguage) };
+                //button3.BindingContext = new { ThirdButtonText = words[randoms[3]].getWord(ChooseLanguagePage.FirstLanguage) };
+                //button4.BindingContext = new { FourthButtonText = words[randoms[4]].getWord(ChooseLanguagePage.FirstLanguage) };
         }
 
-        private void InitWords()
-        {
-            //sorrend: angol, francia, német, magyar, olasz
-            words.Add(new Word("one", "un, une", "ein", "egy", "uno"));
-            words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
-            words.Add(new Word("three", "trois", "drei", "három", "tre"));
-            words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
-            words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
-
-        }
         private void DisableButtons()
         {
             button1.IsEnabled = false;
@@ -110,25 +105,21 @@ namespace LanguageKing
             button3.BackgroundColor = Color.LightGray;
             button4.BackgroundColor = Color.LightGray;
         }
+
         private void CorrectAnswer(Button button)
-        {
-            
-                button.BackgroundColor = Color.LightGreen;
-                currentPoints += incrementPointsValue;
-                pointLabel.BindingContext = new { PointLabelText = currentPoints };
+        { 
+            button.BackgroundColor = Color.LightGreen;
+            currentPoints += incrementPointsValue;
+            pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.CorrectAnswers++;
-           
-
-
         }
+
         private void IncorrectAnswer(Button button)
         {
             button.BackgroundColor = Color.Red;
             currentPoints += decrementPointsValue;
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
             player.IncorrectAnswers++;
-           
-
         }
       
         private void AlertAndClose()
@@ -137,24 +128,28 @@ namespace LanguageKing
             Navigation.PushAsync(new Statistics(player));
             Navigation.RemovePage(this);
         }
+
         private void Button1_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 0) CorrectAnswer(button1);
             else IncorrectAnswer(button1);
             DisableButtons();
         }
+
         private void Button2_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 1) CorrectAnswer(button2);
             else IncorrectAnswer(button2);
             DisableButtons();
         }
+
         private void Button3_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 2) CorrectAnswer(button3);
             else IncorrectAnswer(button3);
             DisableButtons();
         }
+
         private void Button4_Clicked(object sender, EventArgs e)
         {
             if (correctAnswer == 3) CorrectAnswer(button4);

@@ -69,9 +69,7 @@ namespace LanguageKing
         }
             else
             {
-           
                 await Navigation.PushAsync(new MainMenuPage());
-
             }
         }
     }
