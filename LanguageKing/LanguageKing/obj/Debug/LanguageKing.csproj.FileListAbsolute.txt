@@ -127,3 +127,5 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
