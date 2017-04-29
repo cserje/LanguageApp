@@ -21,10 +21,10 @@ namespace LanguageKing {
         private global::Xamarin.Forms.Button practiceButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button statisticsButton;
+        private global::Xamarin.Forms.Button pairWordsButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button pairWordsButton;
+        private global::Xamarin.Forms.Button statisticsButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button quitButton;
@@ -34,8 +34,8 @@ namespace LanguageKing {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainMenuPage));
             learnButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "learnButton");
             practiceButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "practiceButton");
-            statisticsButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "statisticsButton");
             pairWordsButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "pairWordsButton");
+            statisticsButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "statisticsButton");
             quitButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "quitButton");
         }
     }

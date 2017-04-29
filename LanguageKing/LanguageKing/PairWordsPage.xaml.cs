@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,9 +10,11 @@ namespace LanguageKing
     {
         private Player player;
         private WordList wordList = new WordList();
-        List<Button> buttons= new List<Button>();
+        List<Button> buttons = new List<Button>();
         Button lastPressedButton = new Button();
         List<Color> colors = new List<Color>();
+        private List<int> randoms = new List<int>();
+        private Random rnd = new Random();
         public PairWordsPage(Player player)
         {
             this.player = player;
@@ -29,36 +27,79 @@ namespace LanguageKing
             buttons.Add(fourthFirstButton);
             buttons.Add(firstSecondButton);
             buttons.Add(secondSecondButton);
-            buttons.Add(thirdSecondButton);            
+            buttons.Add(thirdSecondButton);
             buttons.Add(fourthSecondButton);
             colors.Add(Color.LightBlue);
             colors.Add(Color.LightBlue);
             colors.Add(Color.LightGreen);
             colors.Add(Color.LightGreen);
-            colors.Add(Color.LightPink);
-            colors.Add(Color.LightPink);
-            colors.Add(Color.LightYellow);
-            colors.Add(Color.LightYellow);
+            colors.Add(Color.Pink);
+            colors.Add(Color.Pink);
+            colors.Add(Color.Yellow);
+            colors.Add(Color.Yellow);
+            colorLabel.BackgroundColor = colors[0];
             CheckProperty();
-            //BindingContext
+            GetWord();
         }
         private void CheckProperty()
         {
-            for(int i=0;i<buttons.Count;++i)
+            for (int i = 0; i < buttons.Count; ++i)
             {
                 buttons[i].Text = "Text";
                 buttons[i].BackgroundColor = Color.Default;
             }
-           
+        }
+        private void GetWord()
+        {
+            int i = 0;
+            int selectedIndex = 0;
+            List<int> buttonIndexes = new List<int>();
+            
+            //gomb indexek 0-tól 8-ig
+            while (i < 8)
+            {
+                selectedIndex=rnd.Next(8);
+                if (!buttonIndexes.Contains(selectedIndex))
+                {
+                    buttonIndexes.Add(selectedIndex);
+                    ++i;
+                }
+            }
+            //for ( i = 0; i < buttonIndexes.Count; ++i)
+            //    DisplayAlert("Asd", buttonIndexes[i].ToString(), "Vissza");
+            i = 0;
+            List<int> wordIndexes= new List<int>();
+
+            //4 szó kiválasztása, a stringek belerakása egy tömbbe
+            List<string> buttonTextArray = new List<string>();
+            while (i < 4)
+            {
+                selectedIndex = rnd.Next(wordList.GetSize());
+                if (!wordIndexes.Contains(selectedIndex))
+                {
+                    buttonTextArray.Add(wordList.GetWord(selectedIndex,ChooseLanguagePage.FirstLanguage));
+                    buttonTextArray.Add(wordList.GetWord(selectedIndex, ChooseLanguagePage.SecondLanguage));
+                    wordIndexes.Add(selectedIndex);
+                    ++i;
+                }
+            }
+          for(i=0;i<buttonIndexes.Count;++i)
+            {
+                buttons[buttonIndexes[i]].Text = buttonTextArray[i];
+            }
+          
 
         }
-        private bool FirstButtonPressed(Button b) {
+
+        
+        private bool FirstButtonPressed(Button b)
+        {
             for (int i = 0; i < buttons.Count / 2; ++i)
                 if (buttons[i].Id == b.Id)
                     return true;
             return false;
-                }
-        
+        }
+
         private void Button_Clicked(object sender, EventArgs e)
         {
 
@@ -68,25 +109,29 @@ namespace LanguageKing
             //A 8 gomb akármelyikén lehet akármelyik nyelv
 
 
-                if (lastPressedButton != null && lastPressedButton.Id == button.Id || button.BackgroundColor != Color.Default)
-                {
+            if (lastPressedButton != null && lastPressedButton.Id == button.Id || button.BackgroundColor != Color.Default)
+            {
 
-                    lastPressedButton = null;
-                    colors.Insert(0, button.BackgroundColor);
-                    button.BackgroundColor = Color.Default;
-                }
-                else
-                {
-                    button.BackgroundColor = colors[0];
-                    colors.RemoveAt(0);
-                    lastPressedButton = button;
-                }
-
+                lastPressedButton = null;
+                colors.Insert(0, button.BackgroundColor);
+                button.BackgroundColor = Color.Default;
             }
-
-            
-           
+            else
+            {
+                button.BackgroundColor = colors[0];
+                colors.RemoveAt(0);
+                lastPressedButton = button;
+            }
+            if (colors.Count > 0)
+            {
+                colorLabel.BackgroundColor = colors[0];
+            }
+            else
+            {
+                colorLabel.BackgroundColor = Color.Default;
+            }
         }
 
-
     }
+
+}

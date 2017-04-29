@@ -8,21 +8,23 @@
                     Android="10, 10, 10, 10"
                     WinPhone="10, 10, 10, 10" />
     </ContentPage.Padding>
-    <StackLayout Orientation="Vertical" Margin="50">
+    <StackLayout Orientation="Vertical">
         <Label x:Name="pairWordsLabel" Text="{Binding PairWordsText}" HorizontalOptions="Center"></Label>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+       
+        <Label x:Name="colorLabel" ></Label>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30">
             <Button x:Name="firstFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="firstSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30">
             <Button x:Name="secondFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="secondSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30">
             <Button x:Name="thirdFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="thirdSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" ></Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30">
             <Button x:Name="fourthFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="fourthSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
