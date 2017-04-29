@@ -105,6 +105,7 @@ namespace LanguageKing
             button.BackgroundColor = Color.LightGreen;
             currentPoints += incrementPointsValue;
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
+            player.Points += incrementPointsValue;
             player.CorrectAnswers++;
         }
 
@@ -113,6 +114,7 @@ namespace LanguageKing
             button.BackgroundColor = Color.Red;
             currentPoints += decrementPointsValue;
             pointLabel.BindingContext = new { PointLabelText = currentPoints };
+            player.Points += decrementPointsValue;
             player.IncorrectAnswers++;
         }
 

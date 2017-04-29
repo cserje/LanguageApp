@@ -154,5 +154,6 @@ C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.For
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PairWordsPage.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb

@@ -18,13 +18,17 @@ namespace LanguageKing
         {
             InitializeComponent();
             BindingContext = new StatisticsViewModel();
-            correctWordLabel.SetBinding(Label.TextProperty, "CorrectWordsCount");
-            incorrectWordLabel.SetBinding(Label.TextProperty, "IncorrectWordsCount");
-
-            //percentageLabel.SetBinding(Label.TextProperty, "PercentageValue");
-
-           correctWordLabel.BindingContext = new { CorrectWordsCount = player.CorrectAnswers };
-           incorrectWordLabel.BindingContext = new { IncorrectWordsCount = player.IncorrectAnswers };
+            WordList words = new WordList();
+            pointLabel.Text = words.GetPointLabelText(ChooseLanguagePage.FirstLanguage)+player.Points.ToString();
+            correctTextLabel.Text = words.GetStatisticsCorrectText(ChooseLanguagePage.FirstLanguage);
+            inCorrectTextLabel.Text = words.GetStatisticsIncorrectText(ChooseLanguagePage.FirstLanguage);
+            correctPairsTextLabel.Text = words.GetStatisticsCorrectMatchText(ChooseLanguagePage.FirstLanguage);
+            incorrectPairsTextLabel.Text = words.GetStatisticsIncorrectMatchText(ChooseLanguagePage.FirstLanguage);
+     
+           correctWordLabel.Text= player.CorrectAnswers.ToString();
+           incorrectWordLabel.Text = player.IncorrectAnswers.ToString();
+            correctPairsCountLabel.Text = player.CorrectPairs.ToString();
+            incorrectPairsCountLabel.Text = player.IncorrectPairs.ToString();
 
         }
     }

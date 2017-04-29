@@ -16,7 +16,7 @@ namespace LanguageKing.ViewModels
         private int correctWords = 0;
         private string[] incorrectText = { "Incorrect Words: ", "Mots incorrects: ", "Falsche Wörter: ", "Helytelen megfejtés: ", "Parole errate: " };
         private int incorrectWords = 0;
-        //private string[] percentageText = { "Percentage: ", "Pourcentage: ", "Prozentsatz: ", "Százalék: ", "Percentuale: " };
+       
 
         public string CorrectWordsText
         {
@@ -41,28 +41,7 @@ namespace LanguageKing.ViewModels
             }
 
         }
-        //public string PercentageText
-        //{
-        //    get { return percentageText[ChooseLanguagePage.FirstLanguage]; }
-            
-        //}
-        //public double PercentageValue
-        //{
-        //    get
-        //    {
-        //        if (correctWords == 0)
-        //        {
-        //            return 0;
-        //        }
-        //        else if (incorrectWords == 0)
-        //        {
-        //            return 100;
-        //        }
-        //        else
-        //            return ((double)correctWords / (double)incorrectWords)*100;
-        //    }
 
-        //}
 
 
     }

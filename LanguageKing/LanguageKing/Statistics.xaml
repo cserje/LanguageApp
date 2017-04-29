@@ -10,19 +10,24 @@
     </ContentPage.Padding>
 
     <StackLayout Orientation="Vertical">
-      
+
+        <Label x:Name="pointLabel" FontSize="Medium"></Label>
         <StackLayout Orientation="Horizontal">
-            <Label Text="{Binding CorrectWordsText}" FontSize="Medium"></Label>
+            <Label x:Name="correctTextLabel" Text="{Binding CorrectWordsText}" FontSize="Medium"></Label>
             <Label x:Name="correctWordLabel" Text="{Binding CorrectWordsCount}" FontSize="Medium"></Label>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="{Binding IncorrectWordsText}" FontSize="Medium"></Label>
+            <Label x:Name="inCorrectTextLabel" Text="{Binding IncorrectWordsText}" FontSize="Medium"></Label>
             <Label x:Name="incorrectWordLabel" Text="{Binding IncorrectWordsCount}" FontSize="Medium"></Label>
         </StackLayout>
-        <!--<StackLayout Orientation="Horizontal">
-            <Label Text="{Binding PercentageText}"></Label>
-            <Label x:Name="percentageLabel" Text="{Binding PercentageValue}"></Label>
-        </StackLayout>-->
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="correctPairsTextLabel" Text="{Binding CorrectPairsText}" FontSize="Medium"></Label>
+            <Label x:Name="correctPairsCountLabel" Text="{Binding CorrectPairsCount}" FontSize="Medium"></Label>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label x:Name="incorrectPairsTextLabel" Text="{Binding IncorrectPairsText}" FontSize="Medium"></Label>
+            <Label x:Name="incorrectPairsCountLabel" Text="{Binding IncorrectPairsCount}" FontSize="Medium"></Label>
+        </StackLayout>
 
     </StackLayout>
 </ContentPage>

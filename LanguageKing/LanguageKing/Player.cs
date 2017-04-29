@@ -7,14 +7,34 @@ using System.Threading.Tasks;
 
 namespace LanguageKing
 {
-   
+
     public class Player
     {
-        private int points=0;
+        private int points = 0;
+        private int correctPairs = 0;
+        private int incorrectPairs = 0;
         private int correctAnswers = 0;
         private int incorrectAnswers = 0;
         private string name;
 
+        public int CorrectPairs
+        {
+            get { return correctPairs; }
+            set
+            {
+                correctPairs = value;
+            }
+
+        }
+        public int IncorrectPairs
+        {
+            get { return incorrectPairs; }
+            set
+            {
+                incorrectPairs = value;
+            }
+
+        }
         public Player(string name, int points)
         {
             this.name = name;

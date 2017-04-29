@@ -10,8 +10,13 @@
     </ContentPage.Padding>
     <StackLayout Orientation="Vertical">
         <Label x:Name="pairWordsLabel" Text="{Binding PairWordsText}" HorizontalOptions="Center"></Label>
-       
-        <Label x:Name="colorLabel" ></Label>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+            <Label x:Name="pointLabel" Text="{Binding PointLabelText}" HorizontalOptions="Start"></Label>
+      
+            <Label x:Name="colorLabel" HorizontalOptions="FillAndExpand"></Label>
+            <Label x:Name="countLabel" HorizontalOptions="End"></Label>
+        </StackLayout>
+        
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30">
             <Button x:Name="firstFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="firstSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
@@ -28,9 +33,9 @@
             <Button x:Name="fourthFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
             <Button x:Name="fourthSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"> 
-        <Button x:Name="checkButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand"></Button>
-            <Button x:Name="nextButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand"></Button>
-        </StackLayout>
+       
+        <Button x:Name="checkButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Check_Clicked" IsEnabled="False"></Button>
+            <Button x:Name="nextButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Next_Clicked"></Button>
+       
     </StackLayout>
 </ContentPage>
