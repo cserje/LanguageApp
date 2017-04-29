@@ -34,7 +34,7 @@ namespace LanguageKing
             buttons.Add(fourthSecondButton);
             ResetColors();
             colorLabel.BackgroundColor = colors[0];
-            pointLabel.Text = currentPoints.ToString();
+            pointLabel.Text = wordList.GetPointLabelText(ChooseLanguagePage.FirstLanguage)+currentPoints.ToString();
             checkButton.Text = wordList.GetCheckText(ChooseLanguagePage.FirstLanguage);
             nextButton.Text = wordList.GetNextText(ChooseLanguagePage.FirstLanguage);
             countLabel.Text = iteration.ToString() + "/" + limit.ToString();
