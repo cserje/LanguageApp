@@ -25,6 +25,10 @@ namespace LanguageKing
         {
              Navigation.PushAsync(new PracticeWords(player));
         }
+        private void PairWords_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PairWordsPage(player));
+        }
 
         private void StatisticsButton_Clicked(object sender, EventArgs e)
         {

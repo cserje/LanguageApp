@@ -125,8 +125,6 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Practic
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.Statistics.xaml.g.cs
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.pdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.csprojResolveAssemblyReference.cache
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.App.xaml.g.cs
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.ChooseLanguagePage.xaml.g.cs
@@ -156,5 +154,6 @@ C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.For
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
-C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
-C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.PairWordsPage.xaml.g.cs
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb

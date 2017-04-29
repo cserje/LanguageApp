@@ -420,7 +420,6 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\asse
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.pdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.apk
@@ -516,4 +515,5 @@ C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\obj\Debug\and
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
-C:\Users\Mozsi\Source\Repos\LApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
+D:\Versions\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb

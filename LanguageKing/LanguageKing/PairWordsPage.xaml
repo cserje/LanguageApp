@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LanguageKing.PairWordsPage">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="10, 30, 10, 10"
+                    Android="10, 10, 10, 10"
+                    WinPhone="10, 10, 10, 10" />
+    </ContentPage.Padding>
+    <StackLayout Orientation="Vertical" Margin="50">
+        <Label x:Name="pairWordsLabel" Text="{Binding PairWordsText}" HorizontalOptions="Center"></Label>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+            <Button x:Name="firstFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+            <Button x:Name="firstSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+            <Button x:Name="secondFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+            <Button x:Name="secondSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+            <Button x:Name="thirdFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+            <Button x:Name="thirdSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" ></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="50">
+            <Button x:Name="fourthFirstButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+            <Button x:Name="fourthSecondButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"> 
+        <Button x:Name="checkButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand"></Button>
+            <Button x:Name="nextButton" Text="{Binding Text}" HorizontalOptions="FillAndExpand"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

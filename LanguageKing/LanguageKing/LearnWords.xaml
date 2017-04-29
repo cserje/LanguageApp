@@ -9,7 +9,7 @@
                     WinPhone="10, 10, 10, 10" />
     </ContentPage.Padding>
     <StackLayout Orientation="Vertical" Spacing="20">
-    <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium"></Label>
+    <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium" ></Label>
         <Label x:Name="answerLabel" Text="{Binding AnswerText}" FontSize="Medium"></Label>
        <Button x:Name="listenButton" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
