@@ -42,7 +42,8 @@ namespace DependencyServiceSample.Droid
                         speaker.SetLanguage(Locale.German);
                         break;
                     case 3:
-                        speaker.SetLanguage(Locale.English);
+                        Locale magyar = new Locale("hu_HU");
+                        speaker.SetLanguage(magyar);
                         break;
                     case 4:
                         speaker.SetLanguage(Locale.Italian);
