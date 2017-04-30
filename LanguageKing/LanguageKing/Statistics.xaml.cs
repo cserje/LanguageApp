@@ -19,6 +19,7 @@ namespace LanguageKing
             InitializeComponent();
             BindingContext = new StatisticsViewModel();
             WordList words = new WordList();
+            words.InitWords();
             pointLabel.Text = words.GetPointLabelText(ChooseLanguagePage.FirstLanguage)+player.Points.ToString();
             correctTextLabel.Text = words.GetStatisticsCorrectText(ChooseLanguagePage.FirstLanguage);
             inCorrectTextLabel.Text = words.GetStatisticsIncorrectText(ChooseLanguagePage.FirstLanguage);

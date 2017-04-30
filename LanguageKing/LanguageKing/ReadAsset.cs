@@ -33,5 +33,30 @@ namespace LanguageKing
             }
             return ret;
         }
+
+        public List<string[]> LoadUiWords()
+        {
+            List<string[]> ret = new List<string[]>();
+            try
+            {
+                var stream = Android.App.Application.Context.Assets.Open("ui.csv");
+                StreamReader sr = new StreamReader(stream);
+
+                string line;
+                string[] splitLine;
+
+                while ((line = sr.ReadLine()) != null)
+                {
+                    splitLine = line.Split(';');
+                    ret.Add(splitLine);
+                }
+
+            }
+            catch
+            {
+
+            }
+            return ret;
+        }
     }
 }

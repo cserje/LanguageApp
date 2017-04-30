@@ -10,18 +10,32 @@ namespace LanguageKing
     class WordList
     {
         private List<Word> words = new List<Word>();
-        private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
-        private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
-        private string[] pairTheWordsText = { "Match the words!", "Associez les mots!", "Pair die Worte!", "Párosítsd a szavakat!", "Accoppi le parole!" };
-        private string[] incorrectSolutionsText = { "To correct the incorrect solutions", "Pour corriger les solutions incorrectes", "Um die falschen Lösungen zu korrigieren","A helytelen megoldás(ok) kijavítása", "Per correggere le soluzioni non corrette" };
-        private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro", };
-        private string[] perfectText = { "Perfect", "Parfait", "Perfekt", "Tökéletes", "Perfetto" };
-        private string[] correctSolutionText = { "Perfect solution", "Solution parfaite", "Perfekte Lösung", "Hibátlan megoldás", "Soluzione perfetta" };
-        private string[] statisticsCorrectText = { "Correct Words: ", "Mots corrects: ", "Richtige Wörter: ", "Helyes megfejtés: ", "Parole corrette: " };
-        private string[] statisticsIncorrectText = { "Incorrect Words: ", "Mots incorrects: ", "Falsche Wörter: ", "Helytelen megfejtés: ", "Parole errate: " };
-        private string[] statisticsCorrectMatchText = { "Correct match:", "Appariement correct:", "Korrekte Paarung:", "Helyes párosítás:", "Corretto abbinamento:" };
-        private string[] statisticsIncorrectMatchText = { "Incorrect match:", "Correspondance incorrecte:", "Falsche Paarung:", "Rossz párosítás:", "Corrispondenza errata:" };
-        private string[] pointLabelText = { "Points: ", "Points: ", "Punkte: ", "Pontok: ", "Punti: " };
+
+        private string[] nextButtonText;
+        private string[] checkButtonText;
+        private string[] pairTheWordsText;
+        private string[] incorrectSolutionsText;
+        private string[] backButtonText;
+        private string[] perfectText;
+        private string[] correctSolutionText;
+        private string[] statisticsCorrectText;
+        private string[] statisticsIncorrectText;
+        private string[] statisticsCorrectMatchText;
+        private string[] statisticsIncorrectMatchText;
+        private string[] pointLabelText;
+
+        //private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
+        //private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
+        //private string[] pairTheWordsText = { "Match the words!", "Associez les mots!", "Pair die Worte!", "Párosítsd a szavakat!", "Accoppi le parole!" };
+        //private string[] incorrectSolutionsText = { "To correct the incorrect solutions", "Pour corriger les solutions incorrectes", "Um die falschen Lösungen zu korrigieren","A helytelen megoldás(ok) kijavítása", "Per correggere le soluzioni non corrette" };
+        //private string[] backButtonText = { "Back", "Dos", "Zurück", "Vissza", "Indietro", };
+        //private string[] perfectText = { "Perfect", "Parfait", "Perfekt", "Tökéletes", "Perfetto" };
+        //private string[] correctSolutionText = { "Perfect solution", "Solution parfaite", "Perfekte Lösung", "Hibátlan megoldás", "Soluzione perfetta" };
+        //private string[] statisticsCorrectText = { "Correct Words: ", "Mots corrects: ", "Richtige Wörter: ", "Helyes megfejtés: ", "Parole corrette: " };
+        //private string[] statisticsIncorrectText = { "Incorrect Words: ", "Mots incorrects: ", "Falsche Wörter: ", "Helytelen megfejtés: ", "Parole errate: " };
+        //private string[] statisticsCorrectMatchText = { "Correct match:", "Appariement correct:", "Korrekte Paarung:", "Helyes párosítás:", "Corretto abbinamento:" };
+        //private string[] statisticsIncorrectMatchText = { "Incorrect match:", "Correspondance incorrecte:", "Falsche Paarung:", "Rossz párosítás:", "Corrispondenza errata:" };
+        //private string[] pointLabelText = { "Points: ", "Points: ", "Punkte: ", "Pontok: ", "Punti: " };
 
         public string GetPointLabelText(int lang)
         {
@@ -92,6 +106,21 @@ namespace LanguageKing
             {
                 words.Add(new Word(assets[i]));
             }
+
+            List<string[]> uiAssets = reader.LoadUiWords();
+
+            nextButtonText = uiAssets[0];
+            checkButtonText = uiAssets[1];
+            pairTheWordsText = uiAssets[2];
+            incorrectSolutionsText = uiAssets[3];
+            backButtonText = uiAssets[4];
+            perfectText = uiAssets[5];
+            correctSolutionText = uiAssets[6];
+            statisticsCorrectText = uiAssets[7];
+            statisticsIncorrectText = uiAssets[8];
+            statisticsCorrectMatchText = uiAssets[9];
+            statisticsIncorrectMatchText = uiAssets[10];
+            pointLabelText = uiAssets[11];
 
             //words.Add(new Word("one", "un", "ein", "egy", "uno"));
             //words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
