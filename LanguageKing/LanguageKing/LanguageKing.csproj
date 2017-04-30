@@ -41,6 +41,7 @@
     <Compile Include="ChooseLanguagePage.xaml.cs">
       <DependentUpon>ChooseLanguagePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ReadAsset.cs" />
     <Compile Include="LearnWords.xaml.cs">
       <DependentUpon>LearnWords.xaml</DependentUpon>
     </Compile>

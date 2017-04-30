@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
+using System.IO;
 
 namespace LanguageKing.Droid
 {
@@ -13,8 +15,7 @@ namespace LanguageKing.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-            
-            
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }

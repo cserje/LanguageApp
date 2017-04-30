@@ -28,9 +28,7 @@ namespace LanguageKing
             answerLabel.SetBinding(Label.TextProperty, "AnswerText");
 
             DependencyService.Get<ITextToSpeech>().SetLocale(ChooseLanguagePage.SecondLanguage);
-
             GetWords();
-            wordList.ReadAssets();
         }
 
         public void NextButtonClicked(object sender, EventArgs e)

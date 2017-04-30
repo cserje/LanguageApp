@@ -26,5 +26,14 @@ D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.pdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
 D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
-D:\Versions\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.App.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.ChooseLanguagePage.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.MainMenuPage.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.LearnWords.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.PracticeWords.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.Statistics.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.PairWordsPage.xaml.g.cs
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.pdb
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\obj\Release\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\LApp2\LanguageApp\LanguageKing\LanguageKing\bin\Release\LanguageKing.dll.mdb

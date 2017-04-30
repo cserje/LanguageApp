@@ -626,7 +626,3 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Fo
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 xamarin.forms.platform.android.appcompat.FormsFragmentPagerAdapter_1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
-LanguageKing.WordList, LanguageKing;md5909586030450c9f74b0f30d7026dd214.WordList
-LanguageKing.WordList, LanguageKing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5909586030450c9f74b0f30d7026dd214.WordList
-LanguageKing.WordList;md5909586030450c9f74b0f30d7026dd214.WordList
-languageking.WordList;md5909586030450c9f74b0f30d7026dd214.WordList

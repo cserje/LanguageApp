@@ -1,6 +1,4 @@
-﻿using Android.App;
-using Android.Content.Res;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace LanguageKing
 {
-    class WordList : Activity
+    class WordList
     {
         private List<Word> words = new List<Word>();
-        private List<Word> assetWords = new List<Word>();
         private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
         private string[] pairTheWordsText = { "Match the words!", "Associez les mots!", "Pair die Worte!", "Párosítsd a szavakat!", "Accoppi le parole!" };
@@ -25,23 +22,6 @@ namespace LanguageKing
         private string[] statisticsCorrectMatchText = { "Correct match:", "Appariement correct:", "Korrekte Paarung:", "Helyes párosítás:", "Corretto abbinamento:" };
         private string[] statisticsIncorrectMatchText = { "Incorrect match:", "Correspondance incorrecte:", "Falsche Paarung:", "Rossz párosítás:", "Corrispondenza errata:" };
         private string[] pointLabelText = { "Points: ", "Points: ", "Punkte: ", "Pontok: ", "Punti: " };
-
-        public void ReadAssets()
-        {
-            AssetManager assets = this.Assets;
-
-            using (StreamReader sr = new StreamReader(assets.Open("words.csv")))
-            {
-                string line;
-                while((line = sr.ReadLine()) != null)
-                {
-                    string[] splitLine;
-                    splitLine = line.Split(';');
-                    assetWords.Add(new Word(splitLine));
-                }
-            }
-
-        }
 
         public string GetPointLabelText(int lang)
         {
@@ -105,12 +85,19 @@ namespace LanguageKing
         public void InitWords()
         {
             //sorrend: angol, francia, német, magyar, olasz
+            ReadAsset reader = new ReadAsset();
+            List<string[]> assets = reader.LoadWords();
 
-            words.Add(new Word("one", "un", "ein", "egy", "uno"));
-            words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
-            words.Add(new Word("three", "trois", "drei", "három", "tre"));
-            words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
-            words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
+            for(int i = 0; i < assets.Count; i++)
+            {
+                words.Add(new Word(assets[i]));
+            }
+
+            //words.Add(new Word("one", "un", "ein", "egy", "uno"));
+            //words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));
+            //words.Add(new Word("three", "trois", "drei", "három", "tre"));
+            //words.Add(new Word("four", "quatre", "vier", "négy", "quattro"));
+            //words.Add(new Word("five", "cinq", "fünf", "öt", "cinque"));
         }
         public int getIndexFromWord(string word)
         {
