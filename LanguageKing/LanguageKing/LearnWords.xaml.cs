@@ -30,6 +30,7 @@ namespace LanguageKing
             DependencyService.Get<ITextToSpeech>().SetLocale(ChooseLanguagePage.SecondLanguage);
 
             GetWords();
+            wordList.ReadAssets();
         }
 
         public void NextButtonClicked(object sender, EventArgs e)

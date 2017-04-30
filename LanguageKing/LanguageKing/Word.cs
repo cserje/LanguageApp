@@ -11,7 +11,13 @@ namespace LanguageKing
         //E, F, G, H, I
         public List<string> element = new List<string>();
 
-
+        public Word(string[] wordList)
+        {
+            for(int i = 0; i < wordList.Length; i++)
+            {
+                element.Add(wordList[i]);
+            }
+        }
 
         public Word(string v1, string v2, string v3, string v4, string v5)
         {

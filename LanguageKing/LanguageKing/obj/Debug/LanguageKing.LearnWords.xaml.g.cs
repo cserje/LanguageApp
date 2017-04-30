@@ -11,7 +11,8 @@
 namespace LanguageKing {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Versions\\LanguageApp\\LanguageKing\\LanguageKing\\LearnWords.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\LApp2\\LanguageApp\\LanguageKing\\LanguageKing\\LearnWord" +
+        "s.xaml")]
     public partial class LearnWords : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
