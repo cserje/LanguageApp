@@ -10,10 +10,22 @@ namespace LanguageKing.ViewModels
 {
     class ChooseLanguagePageViewModel : INotifyPropertyChanged
     {
-        private string[] titles = { "Select your language!", "Choisissez votre langue!", "Wählen Sie Ihre Sprache!", "Válassza ki a nyelveket!", "Seleziona la tua lingua!" };
-        private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
-        private string[] secondLanguagePlaceHolder = { "Second language", "Deuxième langue", "Zweite Sprache", "Második nyelv", "Seconda lingua" };
+        WordList words = WordList.Instance;
+        //private string[] titles = words.GetTitles(firstLanguageSelectedIndex);
+        //private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
+        //private string[] secondLanguagePlaceHolder = { "Second language", "Deuxième langue", "Zweite Sprache", "Második nyelv", "Seconda lingua" };
         private int firstLanguageSelectedIndex = 0;
+
+        private string[,] firstLanguages =
+{
+            {"English","French","German","Hungarian","Italian" }, //angol
+            {"Anglais","Français","Allemand","Hongrois","Italien" }, //francia
+            {"Englisch","Französisch","Deutsch","Ungarisch","Italienisch" }, //német
+            {"Angol","Francia","Német","Magyar","Olasz" }, //magyar
+            {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
+           
+        };
+
         private string[,] secondLanguages =
         {
             {"English","French","German","Hungarian","Italian" }, //angol
@@ -23,6 +35,21 @@ namespace LanguageKing.ViewModels
             {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
            
         };
+
+        public List<string> FirstLanguages
+        {
+            get
+            {
+                List<string> temp = new List<string>();
+                for (int i = 0; i < firstLanguages.GetLength(1); ++i)
+                {
+                    temp.Add(firstLanguages[i, i]);
+                }
+
+                return temp;
+            }
+        }
+
         public List<string> SecondLanguages
         {
             get
@@ -37,6 +64,7 @@ namespace LanguageKing.ViewModels
                 return temp;
             }
         }
+
         public int FirstLanguageSelectedIndex
         {
             get { return firstLanguageSelectedIndex; }
@@ -53,23 +81,16 @@ namespace LanguageKing.ViewModels
 
         public string Title
         {
-            get
-            {
-                return titles[firstLanguageSelectedIndex];
-            }
-            set
-            {
-
-            }
+            get { return words.GetTitles(firstLanguageSelectedIndex); }
         }
         public string NextText
         {
-            get { return nextButtonText[firstLanguageSelectedIndex]; }
+            get { return words.GetNextText(firstLanguageSelectedIndex); }
 
         }
         public string SecondLanguagePlaceHolder
         {
-            get { return secondLanguagePlaceHolder[firstLanguageSelectedIndex]; }
+            get { return words.GetSecondLanguagePlaceHolder(firstLanguageSelectedIndex); }
         }
 
 

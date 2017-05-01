@@ -16,7 +16,7 @@ namespace LanguageKing
     public partial class LearnWords : ContentPage
     {
         private int count = 0;
-        private WordList wordList = new WordList();
+        private WordList wordList = WordList.Instance;
 
         public LearnWords()
         {
@@ -27,7 +27,6 @@ namespace LanguageKing
             questionLabel.SetBinding(Label.TextProperty, "QuestionText");
             answerLabel.SetBinding(Label.TextProperty, "AnswerText");
 
-            DependencyService.Get<ITextToSpeech>().SetLocale(ChooseLanguagePage.SecondLanguage);
             GetWords();
         }
 

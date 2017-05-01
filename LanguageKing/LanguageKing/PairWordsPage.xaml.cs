@@ -9,7 +9,7 @@ namespace LanguageKing
     public partial class PairWordsPage : ContentPage
     {
         private Player player;
-        private WordList wordList = new WordList();
+        private WordList wordList = WordList.Instance;
         List<Button> buttons = new List<Button>();
         Button lastPressedButton = new Button();
         List<Color> colors = new List<Color>();
@@ -225,8 +225,9 @@ namespace LanguageKing
             }
             else
             {
+                Navigation.PopAsync();
                 Navigation.PushAsync(new Statistics(player));
-                Navigation.RemovePage(this);
+                //Navigation.RemovePage(this);
             }
         }
     }

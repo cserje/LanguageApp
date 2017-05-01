@@ -7,6 +7,5 @@ using System.Threading.Tasks;
 public interface ITextToSpeech
 {
     void Speak(string text, int lang);
-
-    void SetLocale(int lang);
+    void Speak(string text, string lang);
 }

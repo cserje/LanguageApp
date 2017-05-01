@@ -11,7 +11,7 @@ namespace LanguageKing
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PracticeWords : ContentPage
     {
-        private WordList wordList = new WordList();
+        private WordList wordList = WordList.Instance;
         private Random rnd = new Random();
         private List<int> randoms = new List<int>();
         private int correctAnswer = -1;
@@ -120,9 +120,9 @@ namespace LanguageKing
 
         private void AlertAndClose()
         {
-
+            Navigation.PopAsync();
             Navigation.PushAsync(new Statistics(player));
-            Navigation.RemovePage(this);
+            //Navigation.RemovePage(this);
         }
 
         private void Button1_Clicked(object sender, EventArgs e)

@@ -11,6 +11,8 @@ namespace LanguageKing
     {
         private List<Word> words = new List<Word>();
 
+        private static WordList instance;
+
         private string[] nextButtonText;
         private string[] checkButtonText;
         private string[] pairTheWordsText;
@@ -23,6 +25,8 @@ namespace LanguageKing
         private string[] statisticsCorrectMatchText;
         private string[] statisticsIncorrectMatchText;
         private string[] pointLabelText;
+        private string[] titles;
+        private string[] secondLanguagePlaceHolder;
 
         //private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         //private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
@@ -36,6 +40,11 @@ namespace LanguageKing
         //private string[] statisticsCorrectMatchText = { "Correct match:", "Appariement correct:", "Korrekte Paarung:", "Helyes párosítás:", "Corretto abbinamento:" };
         //private string[] statisticsIncorrectMatchText = { "Incorrect match:", "Correspondance incorrecte:", "Falsche Paarung:", "Rossz párosítás:", "Corrispondenza errata:" };
         //private string[] pointLabelText = { "Points: ", "Points: ", "Punkte: ", "Pontok: ", "Punti: " };
+
+        private WordList()
+        {
+            InitWords();
+        }
 
         public string GetPointLabelText(int lang)
         {
@@ -86,9 +95,30 @@ namespace LanguageKing
         {
             return nextButtonText[lang];
         }
+        public string GetTitles(int lang)
+        {
+            return titles[lang];
+        }
+        public string GetSecondLanguagePlaceHolder(int lang)
+        {
+            return secondLanguagePlaceHolder[lang];
+        }
+
         public string GetWord(int count, int lang)
         {
             return words[count].getWord(lang);
+        }
+
+        public static WordList Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new WordList();
+                }
+                return instance;
+            }
         }
 
         public void AddWord(Word newWord)
@@ -121,6 +151,8 @@ namespace LanguageKing
             statisticsCorrectMatchText = uiAssets[9];
             statisticsIncorrectMatchText = uiAssets[10];
             pointLabelText = uiAssets[11];
+            titles = uiAssets[12];
+            secondLanguagePlaceHolder = uiAssets[13];
 
             //words.Add(new Word("one", "un", "ein", "egy", "uno"));
             //words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));

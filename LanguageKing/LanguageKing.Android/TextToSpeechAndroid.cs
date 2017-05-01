@@ -20,11 +20,6 @@ namespace DependencyServiceSample.Droid
 
         }
 
-        public void SetLocale(int lang)
-        {
-            
-        }
-
         public void Speak(string text, int lang)
         {
             try
@@ -54,6 +49,30 @@ namespace DependencyServiceSample.Droid
                 }
             }
             catch (Exception e)
+            {
+
+            }
+            var ctx = Forms.Context; // useful for many Android SDK features
+            toSpeak = text;
+            if (speaker == null)
+            {
+                speaker = new TextToSpeech(ctx, this);
+            }
+            else
+            {
+                var p = new Dictionary<string, string>();
+                //speaker.Speak(toSpeak, QueueMode.Flush, p);
+                speaker.Speak(toSpeak, QueueMode.Flush, p);
+            }
+        }
+
+        public void Speak(string text, string lang)
+        {
+            try
+            {
+                Locale language = new Locale(lang);
+                speaker.SetLanguage(language);
+            } catch (Exception e)
             {
 
             }
