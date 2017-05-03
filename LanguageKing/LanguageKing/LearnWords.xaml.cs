@@ -17,10 +17,12 @@ namespace LanguageKing
     {
         private int count = 0;
         private WordList wordList = WordList.Instance;
+        private string[] locales;
 
         public LearnWords()
         {
-            wordList.InitWords();
+            locales = new string[wordList.GetLocaleCount()];
+            locales = wordList.GetLocales();
             InitializeComponent();
             BindingContext = new LearnWordsViewModel();
 
@@ -60,7 +62,8 @@ namespace LanguageKing
         public void ListenButtonClicked(object sender, EventArgs e)
         {
             String text = answerLabel.Text;
-            DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
+            //DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
+            DependencyService.Get<ITextToSpeech>().Speak(text, locales[ChooseLanguagePage.SecondLanguage]);
         }
 
         private void GetWords()

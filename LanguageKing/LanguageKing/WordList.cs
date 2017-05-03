@@ -27,6 +27,8 @@ namespace LanguageKing
         private string[] pointLabelText;
         private string[] titles;
         private string[] secondLanguagePlaceHolder;
+        private string[,] languageList;
+        private string[] locales;
 
         //private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         //private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
@@ -46,6 +48,22 @@ namespace LanguageKing
             InitWords();
         }
 
+        public string[] GetLocales()
+        {
+            return locales;
+        }
+        public int GetLocaleCount()
+        {
+            return locales.Length;
+        }
+        public string[,] GetLanguageList()
+        {
+            return languageList;
+        }
+        public int GetLanguageCount()
+        {
+            return languageList.Length;
+        }
         public string GetPointLabelText(int lang)
         {
             return pointLabelText[ChooseLanguagePage.FirstLanguage];
@@ -153,6 +171,9 @@ namespace LanguageKing
             pointLabelText = uiAssets[11];
             titles = uiAssets[12];
             secondLanguagePlaceHolder = uiAssets[13];
+
+            languageList = reader.LoadLanguages();
+            locales = reader.LoadLocales();
 
             //words.Add(new Word("one", "un", "ein", "egy", "uno"));
             //words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));

@@ -16,25 +16,33 @@ namespace LanguageKing.ViewModels
         //private string[] secondLanguagePlaceHolder = { "Second language", "Deuxième langue", "Zweite Sprache", "Második nyelv", "Seconda lingua" };
         private int firstLanguageSelectedIndex = 0;
 
-        private string[,] firstLanguages =
-{
-            {"English","French","German","Hungarian","Italian" }, //angol
-            {"Anglais","Français","Allemand","Hongrois","Italien" }, //francia
-            {"Englisch","Französisch","Deutsch","Ungarisch","Italienisch" }, //német
-            {"Angol","Francia","Német","Magyar","Olasz" }, //magyar
-            {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
-           
-        };
+        private string[,] firstLanguages;
+        //{
+        //    {"English","French","German","Hungarian","Italian" }, //angol
+        //    {"Anglais","Français","Allemand","Hongrois","Italien" }, //francia
+        //    {"Englisch","Französisch","Deutsch","Ungarisch","Italienisch" }, //német
+        //    {"Angol","Francia","Német","Magyar","Olasz" }, //magyar
+        //    {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
 
-        private string[,] secondLanguages =
-        {
-            {"English","French","German","Hungarian","Italian" }, //angol
-            {"Anglais","Français","Allemand","Hongrois","Italien" }, //francia
-            {"Englisch","Französisch","Deutsch","Ungarisch","Italienisch" }, //német
-            {"Angol","Francia","Német","Magyar","Olasz" }, //magyar
-            {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
+        //};
+
+        private string[,] secondLanguages;
+        //{
+        //    {"English","French","German","Hungarian","Italian" }, //angol
+        //    {"Anglais","Français","Allemand","Hongrois","Italien" }, //francia
+        //    {"Englisch","Französisch","Deutsch","Ungarisch","Italienisch" }, //német
+        //    {"Angol","Francia","Német","Magyar","Olasz" }, //magyar
+        //    {"Inglese","Francese","Tedesco","Ungherese","Italiano" }, //olasz
            
-        };
+        //};
+
+        public ChooseLanguagePageViewModel()
+        {
+            firstLanguages = new string[words.GetLanguageCount(), words.GetLanguageCount()];
+            firstLanguages = words.GetLanguageList();
+            secondLanguages = new string[words.GetLanguageCount(), words.GetLanguageCount()];
+            secondLanguages = words.GetLanguageList();
+        }
 
         public List<string> FirstLanguages
         {

@@ -58,5 +58,59 @@ namespace LanguageKing
             }
             return ret;
         }
+
+        public string[,] LoadLanguages()
+        {
+            try
+            {
+                var stream = Android.App.Application.Context.Assets.Open("language.csv");
+                StreamReader sr = new StreamReader(stream);
+                List<string[]> rowList = new List<string[]>();
+
+                string line;
+                string[] splitLine;
+
+                while ((line = sr.ReadLine()) != null)
+                {
+                    splitLine = line.Split(';');
+                    rowList.Add(splitLine);
+                }
+                string[,] ret = new string[rowList.Count, rowList.Count];
+                for (int j = 0; j < rowList.Count; j++)
+                {
+                    for (int k = 0; k < rowList.Count; k++)
+                    {
+                        ret[j, k] = rowList[j][k];
+                    }
+                }
+                return ret;
+            }
+            catch
+            {
+
+            }
+            return null;
+        }
+
+        public string[] LoadLocales()
+        {
+            try
+            {
+                var stream = Android.App.Application.Context.Assets.Open("locales.csv");
+                StreamReader sr = new StreamReader(stream);
+
+                string[] splitLine;
+                string line;
+
+                line = sr.ReadLine();
+                splitLine = line.Split(';');
+
+                return splitLine;
+            }
+            catch
+            {
+                return null;
+            }
+        }
     }
 }
