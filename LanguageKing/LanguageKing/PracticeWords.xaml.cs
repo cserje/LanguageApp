@@ -25,7 +25,7 @@ namespace LanguageKing
         public PracticeWords(Player player)
         {
             this.player = player;
-            wordList.InitWords();
+            //wordList.InitWords();
             InitializeComponent();
             BindingContext = new PracticeWordsViewModel();
             pointLabel.SetBinding(Label.TextProperty, "PointLabelText");

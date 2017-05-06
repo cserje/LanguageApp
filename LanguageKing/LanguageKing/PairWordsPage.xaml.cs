@@ -22,7 +22,7 @@ namespace LanguageKing
         {
             this.player = player;
             InitializeComponent();
-            wordList.InitWords();
+            //wordList.InitWords();
             pairWordsLabel.Text = wordList.GetpairTheWordsText(ChooseLanguagePage.FirstLanguage);
             buttons.Add(firstFirstButton);
             buttons.Add(secondFirstButton);
@@ -156,10 +156,14 @@ namespace LanguageKing
             player.Points += ((4 - incorrectWordIndexes.Count) - incorrectWordIndexes.Count) * 10;
             currentPoints += ((4 - incorrectWordIndexes.Count) - incorrectWordIndexes.Count) * 10;
             pointLabel.Text = currentPoints.ToString();
-            if(incorrectWordIndexes.Count>0)
-            DisplayAlert(wordList.GetIncorrectSolutionsText(ChooseLanguagePage.FirstLanguage), text,wordList.GetNextText(ChooseLanguagePage.FirstLanguage));
+            if (incorrectWordIndexes.Count > 0)
+            {
+                DisplayAlert(wordList.GetIncorrectSolutionsText(ChooseLanguagePage.FirstLanguage), text, wordList.GetNextText(ChooseLanguagePage.FirstLanguage));
+            }
             else
-                DisplayAlert(wordList.GetPerfectText(ChooseLanguagePage.FirstLanguage), wordList.GetCorrectSolutionText(ChooseLanguagePage.FirstLanguage)+"!", wordList.GetNextText(ChooseLanguagePage.FirstLanguage));
+            {
+                DisplayAlert(wordList.GetPerfectText(ChooseLanguagePage.FirstLanguage), wordList.GetCorrectSolutionText(ChooseLanguagePage.FirstLanguage) + "!", wordList.GetNextText(ChooseLanguagePage.FirstLanguage));
+            }
             DisableAll();
 
         }

@@ -224,3 +224,5 @@ C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\obj\Debug\
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\obj\Debug\LanguageKing.dll.mdb
+C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing\bin\Debug\LanguageKing.dll.mdb
