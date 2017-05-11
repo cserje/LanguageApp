@@ -34,9 +34,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <BundleAssemblies>False</BundleAssemblies>
     <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
     <Debugger>.Net (Xamarin)</Debugger>
@@ -159,6 +159,11 @@
     <AndroidAsset Include="Assets\ui.csv" />
     <AndroidAsset Include="Assets\language.csv" />
     <AndroidAsset Include="Assets\locales.csv" />
+    <AndroidAsset Include="Assets\1.csv" />
+    <AndroidAsset Include="Assets\categories.csv" />
+    <AndroidAsset Include="Assets\2.csv" />
+    <AndroidAsset Include="Assets\3.csv" />
+    <AndroidAsset Include="Assets\4.csv" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>

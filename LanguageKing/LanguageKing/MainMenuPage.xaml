@@ -16,7 +16,7 @@
         </Button>
         <Button x:Name="pairWordsButton" Text="{Binding PairWordsText}" Clicked="PairWords_Clicked" HorizontalOptions="FillAndExpand"></Button>
         <Button x:Name="statisticsButton" Text="{Binding StatisticsText}" Clicked="StatisticsButton_Clicked" HorizontalOptions="FillAndExpand"></Button>
-        <Button x:Name="quitButton" Text="{Binding QuitText}" Clicked="CloseApplication" IsEnabled="False" HorizontalOptions="FillAndExpand">
+        <Button x:Name="quitButton" Text="{Binding QuitText}" Clicked="CloseApplication" IsEnabled="True" HorizontalOptions="FillAndExpand">
         </Button>
-        </StackLayout>
+    </StackLayout>
 </ContentPage>

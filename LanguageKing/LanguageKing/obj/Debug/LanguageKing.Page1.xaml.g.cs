@@ -11,8 +11,7 @@
 namespace LanguageKing {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Cserje\\Documents\\Visual Studio 2017\\Projects\\LanguageApp\\LanguageKing\\La" +
-        "nguageKing\\Page1.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\ASD\\LanguageApp\\LanguageKing\\LanguageKing\\Page1.xaml")]
     public partial class Page1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

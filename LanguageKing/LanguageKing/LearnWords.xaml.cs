@@ -1,5 +1,4 @@
-﻿
-using LanguageKing.ViewModels;
+﻿using LanguageKing.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -25,23 +24,25 @@ namespace LanguageKing
             locales = wordList.GetLocales();
             InitializeComponent();
             BindingContext = new LearnWordsViewModel();
-
-            questionLabel.SetBinding(Label.TextProperty, "QuestionText");
-            answerLabel.SetBinding(Label.TextProperty, "AnswerText");
-
             GetWords();
         }
 
         public void NextButtonClicked(object sender, EventArgs e)
         {
-            if (count < wordList.GetSize() - 1)
+            if (count + 2 < wordList.GetSize() - 1)
             {
                 count++;
             }
             else
             {
-                //DisplayAlert("No more words!", "Check back later to learn more!", "Back");
-                count = 0;
+                if(count == wordList.GetSize() - 3)
+                {
+                    count = 0;
+                }
+                else
+                {
+                    count = wordList.GetSize() - 3;
+                }
             }
             GetWords();
         }
@@ -54,25 +55,41 @@ namespace LanguageKing
             }
             else if (count == 0)
             {
-                count = wordList.GetSize() - 1;
+                count = wordList.GetSize() - 3;
             }
             GetWords();
         }
 
-        public void ListenButtonClicked(object sender, EventArgs e)
+        public void ListenButtonClicked1(object sender, EventArgs e)
         {
-            String text = answerLabel.Text;
+
+            String text = answerLabel1.Text;
+            //DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
+            DependencyService.Get<ITextToSpeech>().Speak(text, locales[ChooseLanguagePage.SecondLanguage]);
+        }
+        public void ListenButtonClicked2(object sender, EventArgs e)
+        {
+
+            String text = answerLabel2.Text;
+            //DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
+            DependencyService.Get<ITextToSpeech>().Speak(text, locales[ChooseLanguagePage.SecondLanguage]);
+        }
+        public void ListenButtonClicked3(object sender, EventArgs e)
+        {
+
+            String text = answerLabel3.Text;
             //DependencyService.Get<ITextToSpeech>().Speak(text, ChooseLanguagePage.SecondLanguage);
             DependencyService.Get<ITextToSpeech>().Speak(text, locales[ChooseLanguagePage.SecondLanguage]);
         }
 
         private void GetWords()
         {
-            questionLabel.BindingContext = new { QuestionText = wordList.GetWord(count, ChooseLanguagePage.FirstLanguage) };
-            answerLabel.BindingContext = new { AnswerText = wordList.GetWord(count, ChooseLanguagePage.SecondLanguage) };
-
-            //questionLabel.BindingContext = new { QuestionText = words[count].getWord(ChooseLanguagePage.FirstLanguage) };
-            //answerLabel.BindingContext = new { AnswerText = words[count].getWord(ChooseLanguagePage.SecondLanguage) };
+            questionLabel1.Text = wordList.GetWord(count, ChooseLanguagePage.FirstLanguage);
+            answerLabel1.Text = wordList.GetWord(count, ChooseLanguagePage.SecondLanguage);
+            questionLabel2.Text = wordList.GetWord(count + 1, ChooseLanguagePage.FirstLanguage);
+            answerLabel2.Text = wordList.GetWord(count + 1, ChooseLanguagePage.SecondLanguage);
+            questionLabel3.Text = wordList.GetWord(count + 2, ChooseLanguagePage.FirstLanguage);
+            answerLabel3.Text = wordList.GetWord(count + 2, ChooseLanguagePage.SecondLanguage);
         }
 
     }

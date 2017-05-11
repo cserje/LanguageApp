@@ -29,6 +29,8 @@ namespace LanguageKing
         private string[] secondLanguagePlaceHolder;
         private string[,] languageList;
         private string[] locales;
+        private string[,] categories;
+        private string[] categoryPlaceHolder;
 
         //private string[] nextButtonText = { "Next", "Plus", "Weiter", "Tovább", "Ulteriormente" };
         //private string[] checkButtonText = { "Check", "Inspection", "Inspektion", "Ellenőrzés", "Ispezione" };
@@ -48,6 +50,14 @@ namespace LanguageKing
             InitWords();
         }
 
+        public string GetCategoryPlaceHolder(int lang)
+        {
+            return categoryPlaceHolder[lang];
+        }
+        public string[,] GetCategories()
+        {
+            return categories;
+        }
         public string[] GetLocales()
         {
             return locales;
@@ -144,16 +154,33 @@ namespace LanguageKing
             words.Add(newWord);
         }
 
+        public void LoadAllWords(int category)
+        {
+            ReadAsset reader = new ReadAsset();
+            List<string[]> assets = reader.LoadWords(category);
+
+            for (int i = 0; i < assets.Count; i++)
+            {
+                words.Add(new Word(assets[i]));
+            }
+        }
+
+        public void LoadWords(int category)
+        {
+            words = new List<Word>();
+            ReadAsset reader = new ReadAsset();
+            List<string[]> assets = reader.LoadWords(category);
+
+            for (int i = 0; i < assets.Count; i++)
+            {
+                words.Add(new Word(assets[i]));
+            }
+        }
+
         public void InitWords()
         {
             //sorrend: angol, francia, német, magyar, olasz
             ReadAsset reader = new ReadAsset();
-            List<string[]> assets = reader.LoadWords();
-
-            for(int i = 0; i < assets.Count; i++)
-            {
-                words.Add(new Word(assets[i]));
-            }
 
             List<string[]> uiAssets = reader.LoadUiWords();
 
@@ -171,9 +198,11 @@ namespace LanguageKing
             pointLabelText = uiAssets[11];
             titles = uiAssets[12];
             secondLanguagePlaceHolder = uiAssets[13];
+            categoryPlaceHolder = uiAssets[14];
 
             languageList = reader.LoadLanguages();
             locales = reader.LoadLocales();
+            categories = reader.LoadCategories();
 
             //words.Add(new Word("one", "un", "ein", "egy", "uno"));
             //words.Add(new Word("two", "deux", "zwei", "kettő", "duo"));

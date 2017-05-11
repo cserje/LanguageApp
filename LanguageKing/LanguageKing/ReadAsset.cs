@@ -9,12 +9,12 @@ namespace LanguageKing
 {
     class ReadAsset
     {
-        public List<string[]> LoadWords()
+        public List<string[]> LoadWords(int category)
         {
             List<string[]> ret = new List<string[]>();
             try
             {
-                var stream = Android.App.Application.Context.Assets.Open("words.csv");
+                var stream = Android.App.Application.Context.Assets.Open(category.ToString() + ".csv");
                 StreamReader sr = new StreamReader(stream);
 
                 string line;
@@ -57,6 +57,39 @@ namespace LanguageKing
 
             }
             return ret;
+        }
+
+        public string[,] LoadCategories()
+        {
+            try
+            {
+                var stream = Android.App.Application.Context.Assets.Open("categories.csv");
+                StreamReader sr = new StreamReader(stream);
+                List<string[]> rowList = new List<string[]>();
+
+                string line;
+                string[] splitLine;
+
+                while ((line = sr.ReadLine()) != null)
+                {
+                    splitLine = line.Split(';');
+                    rowList.Add(splitLine);
+                }
+                string[,] ret = new string[rowList.Count, rowList[0].Length];
+                for (int j = 0; j < rowList.Count; j++)
+                {
+                    for (int k = 0; k < rowList[0].Length; k++)
+                    {
+                        ret[j, k] = rowList[j][k];
+                    }
+                }
+                return ret;
+            }
+            catch
+            {
+
+            }
+            return null;
         }
 
         public string[,] LoadLanguages()

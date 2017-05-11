@@ -11,8 +11,8 @@
 namespace LanguageKing {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\LApp2\\LanguageApp\\LanguageKing\\LanguageKing\\PracticeW" +
-        "ords.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\ASD\\LanguageApp\\LanguageKing\\LanguageKing\\PracticeWor" +
+        "ds.xaml")]
     public partial class PracticeWords : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

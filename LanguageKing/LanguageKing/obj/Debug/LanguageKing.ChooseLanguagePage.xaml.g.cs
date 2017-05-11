@@ -11,8 +11,8 @@
 namespace LanguageKing {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\LApp2\\LanguageApp\\LanguageKing\\LanguageKing\\ChooseLan" +
-        "guagePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Mozsi\\Source\\Repos\\ASD\\LanguageApp\\LanguageKing\\LanguageKing\\ChooseLangu" +
+        "agePage.xaml")]
     public partial class ChooseLanguagePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

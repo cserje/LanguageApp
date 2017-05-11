@@ -642,7 +642,6 @@ C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bi
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.csprojResolveAssemblyReference.cache
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
@@ -671,8 +670,8 @@ C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\ob
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\res\values\styles.xml
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\R.cs.flag
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\uploadflags.txt
-C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb
+C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Mono.Android.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\Mono.CSharp.dll.mdb
@@ -712,5 +711,6 @@ C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\ob
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.csprojResolveAssemblyReference.cache
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\obj\Debug\LanguageKing.Android.dll.mdb
 C:\Users\Mozsi\Source\Repos\ASD\LanguageApp\LanguageKing\LanguageKing.Android\bin\Debug\LanguageKing.Android.dll.mdb

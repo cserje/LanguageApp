@@ -9,9 +9,21 @@
                     WinPhone="10, 10, 10, 10" />
     </ContentPage.Padding>
     <StackLayout Orientation="Vertical" Spacing="20">
-    <Label x:Name="questionLabel" Text="{Binding QuestionText}" FontSize="Medium" ></Label>
-        <Label x:Name="answerLabel" Text="{Binding AnswerText}" FontSize="Medium"></Label>
-       <Button x:Name="listenButton" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked" HorizontalOptions="Start" BorderRadius="140"></Button>
+        <StackLayout>
+            <Label x:Name="questionLabel1" Text="{Binding QuestionText}" FontSize="Medium" ></Label>
+            <Label x:Name="answerLabel1" Text="{Binding AnswerText}" FontSize="Medium"></Label>
+            <Button x:Name="listenButton1" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked1" HorizontalOptions="Start" BorderRadius="140"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Spacing="20">
+            <Label x:Name="questionLabel2" Text="{Binding QuestionText}" FontSize="Medium" ></Label>
+            <Label x:Name="answerLabel2" Text="{Binding AnswerText}" FontSize="Medium"></Label>
+            <Button x:Name="listenButton2" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked2" HorizontalOptions="Start" BorderRadius="140"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Vertical" Spacing="20">
+            <Label x:Name="questionLabel3" Text="{Binding QuestionText}" FontSize="Medium" ></Label>
+            <Label x:Name="answerLabel3" Text="{Binding AnswerText}" FontSize="Medium"></Label>
+            <Button x:Name="listenButton3" Text="{Binding ListenButtonText}" Clicked="ListenButtonClicked3" HorizontalOptions="Start" BorderRadius="140"></Button>
+        </StackLayout>
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
             <Button x:Name="backButton" Text="{Binding BackButtonText}" Clicked="BackButtonClicked" HorizontalOptions="FillAndExpand" ></Button>
             <Button x:Name="nextButton" Text="{Binding NextButtonText}" Clicked="NextButtonClicked" HorizontalOptions="FillAndExpand"></Button>
